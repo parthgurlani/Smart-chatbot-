@@ -16,11 +16,17 @@ def build_prompt(
 
     profile = get_profile(user_id)
 
-    summary = get_summary(session_id)
+    summary = get_summary(
+        session_id
+    )
 
-    recent = get_recent_messages(session_id)
+    recent = get_recent_messages(
+        session_id
+    )
 
     return f"""
+You are a helpful AI assistant.
+
 User Profile:
 {profile}
 
