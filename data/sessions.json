@@ -35,6 +35,198 @@
         {
             "role": "assistant",
             "content": "{'success': False, 'status_code': 404, 'is_json': True, 'body': {'error': 'Not found: POST /'}, 'headers': {'Date': 'Mon, 08 Jun 2026 05:40:51 GMT', 'Content-Type': 'application/json', 'Content-Length': '30', 'Connection': 'keep-alive', 'x-amzn-RequestId': '59281558-28d4-4e44-a7ff-ba10a5c0e62e', 'access-control-allow-origin': '*', 'X-Amzn-Trace-Id': 'Root=1-6a2655e3-0888bc2474dba55a0fceef35;Parent=5d16f23e83a232ae;Sampled=0;Lineage=1:3351b6b2:0'}, 'url': 'https://eukizcct6w32475lph4xt5l5cm0cndov.lambda-url.us-east-1.on.aws'}"
+        },
+        {
+            "role": "user",
+            "content": "who is pm of india"
+        },
+        {
+            "role": "assistant",
+            "content": "\n\nAs of my knowledge, **Narendra Modi** is the Prime Minister of India. He has been serving as PM since May 2014.\n\nHowever, please note that I don't have real-time information, so my knowledge might be outdated. For the most current information, I recommend checking latest news sources."
+        },
+        {
+            "role": "user",
+            "content": "what is weather of bhat gandhingar today"
+        },
+        {
+            "role": "assistant",
+            "content": "\n\n\n<minimax:tool_call>\n<invoke name=\"weather-api_search-weather\">\n<parameter name=\"q\">Gandhinagar, India</parameter>\n</invoke>\n</minimax:tool_call>"
+        },
+        {
+            "role": "user",
+            "content": "What is polymorphism?"
+        },
+        {
+            "role": "assistant",
+            "content": "\n\n# Polymorphism in Programming\n\n**Polymorphism** is one of the four fundamental Object-Oriented Programming (OOP) concepts. The word comes from Greek meaning \"many forms.\"\n\n## Types of Polymorphism\n\n### 1. **Compile-time (Static) Polymorphism**\n- Achieved through **method overloading** (multiple methods with same name but different parameters)\n- Resolved at compile time\n\n```python\nclass Math:\n    def add(self, a, b):\n        return a + b\n    \n    def add(self, a, b, c):  # Overloaded method\n        return a + b + c\n```\n\n### 2. **Runtime (Dynamic) Polymorphism**\n- Achieved through **method overriding** (child class redefines parent class method)\n- Resolved at runtime\n\n```python\nclass Animal:\n    def speak(self):\n        print(\"Animal speaks\")\n\nclass Dog(Animal):\n    def speak(self):  # Overrides parent method\n        print(\"Woof!\")\n\nclass Cat(Animal):\n    def speak(self):  # Overrides parent method\n        print(\"Meow!\")\n```\n\n## Key Benefits\n- **Code reusability** - Write generic code that works with different object types\n- **Flexibility** - Objects of different classes can be treated uniformly\n- **Extensibility** - Easy to add new classes without modifying existing code\n\n## Real-world Example\nA `draw()` method could behave differently for `Circle`, `Rectangle`, and `Triangle` objects\u2014all treated through a common `Shape` interface.\n\nWould you like me to provide more examples in a specific programming language?"
+        },
+        {
+            "role": "user",
+            "content": "what is the current weather of bhat gandhinagar?"
+        },
+        {
+            "role": "assistant",
+            "content": "\n\n# Current Weather in Bhat, Gandhinagar\n\nBased on the available information, here's what I can tell you about the weather in Bhat, Gandhinagar:\n\n**Current Conditions:**\nThe most recent data available for Bhat shows:\n- Temperature: 27-28\u00b0C\n- Humidity: 89-94%\n- Weather: Light rain during morning hours\n- Rainfall: Approximately 7.0 mm\n- Wind: Moderate, around 11.7 km/h\n\nFor the broader Gandhinagar area, current conditions show:\n- Temperature around 37\u00b0C (hot)\n- Humidity at 35%\n- Wind speeds of about 23.4 km/h\n- Pressure at 1001mb\n- UV Index: 5.4\n\nThe weather in Bhat appears to be somewhat cooler with higher humidity than the main Gandhinagar area, likely due to the recent rainfall. Would you like more specific details?"
+        },
+        {
+            "role": "user",
+            "content": "who is the pm of india"
+        },
+        {
+            "role": "assistant",
+            "content": "\n\nNarendra\u202fModi is the Prime Minister of India, serving in that role since 2014."
+        },
+        {
+            "role": "user",
+            "content": "who won the ipl 2026"
+        },
+        {
+            "role": "assistant",
+            "content": "\n\nRoyal\u202fChallengers\u202fBengaluru (RCB) won the 2026 Indian Premier League, beating Gujarat\u202fTitans by five wickets in the final."
+        },
+        {
+            "role": "user",
+            "content": "my name is parth suggest me a good nickname"
+        },
+        {
+            "role": "assistant",
+            "content": "\n\n# Nickname Suggestions for Parth \ud83c\udfaf\n\nHere are some cool nicknames for you:\n\n| Nickname | Meaning/Vibe |\n|----------|--------------|\n| **Parth** | Classic & Short |\n| **Parthy** | Friendly & Approachable |\n| **P-Money** | Cool & Trendy |\n| **Parth-Star** | Shining & Unique |\n| **The P** | Confident & Bold |\n| **Parthzilla** | Fun & Powerful |\n| **P2** | Modern & Quick |\n| **Parthy Raja** | Royal & Majestic |\n\n## My Top Picks \ud83d\udca1\n\n1. **Parth** - Keep it simple, it's already a strong name!\n2. **P-Money** - Sounds cool and catchy\n3. **Parthzilla** - Fun and memorable\n\nWould you like more options or something specific based on your personality/interests? \ud83d\ude0a"
+        },
+        {
+            "role": "user",
+            "content": "what is the current score of today's test match between india and afghanistan"
+        },
+        {
+            "role": "assistant",
+            "content": "\n\nI\u2019m sorry, I don\u2019t have the latest score for today\u2019s India\u2011Afghanistan Test match."
+        },
+        {
+            "role": "user",
+            "content": "what is 2+2"
+        },
+        {
+            "role": "assistant",
+            "content": "\n\n2 + 2 = **4** \ud83e\uddee"
+        },
+        {
+            "role": "user",
+            "content": "what is instgram"
+        },
+        {
+            "role": "assistant",
+            "content": "\n\n**Instagram** is a popular social media platform owned by Meta (formerly Facebook). Here's what you need to know:\n\n| Feature | Details |\n|---------|---------|\n| **Founded** | 2010 |\n| **Headquarters** | Menlo Park, California |\n| **Users** | 2+ billion monthly active users |\n\n## Main Features \ud83d\udcf8\n\n- **Photo & Video Sharing** \u2013 Post images and short videos (Reels) to your profile\n- **Stories** \u2013 Temporary posts that last 24 hours\n- **Reels** \u2013 Short-form video content (similar to TikTok)\n- **DMs** \u2013 Direct messaging to chat with friends\n- **Live Streaming** \u2013 Broadcast live to your followers\n- **IGTV** \u2013 Longer video format\n\nIt's available as a free app on both **iOS** and **Android** devices. People use Instagram to share their life moments, follow celebrities/brands, discover new content, and connect with friends.\n\nDid you mean to ask something specific about Instagram? \ud83d\ude0a"
+        },
+        {
+            "role": "user",
+            "content": "who is parth gurlani"
+        },
+        {
+            "role": "assistant",
+            "content": "\n\nParth\u202fGurnani is an Indian cricketer\u202f\u2014\u202fhis cricket profile appears on CricHeroes, where you can find his batting, bowling and fielding statistics.  He also has a professional presence on LinkedIn, indicating he\u2019s a student at Bennett\u202fUniversity, and he\u2019s active on other social\u2011media platforms (Pinterest, YouTube, etc.)."
+        },
+        {
+            "role": "user",
+            "content": "who is parth"
+        },
+        {
+            "role": "assistant",
+            "content": "\n\nParth most commonly refers to **Parth\u202fSamthaan** \u2013 an Indian actor who began his career in 2012 with the TV series\u202f*Gumrah: End of Innocence* and *Best Friends Forever?* . He later became known for roles in popular shows such as *Kaisi Yeh Yaariyan* and *Mere Ghar Aayi Ek Nanhi Pari*, and he has a large following on Instagram under the handle\u202f@the_parthsamthaan. \n\n(There is also a Parth Hospital that offers mental\u2011health services, but when people ask \u201cwho is Parth\u201d they\u2019re usually referring to the actor.)"
+        },
+        {
+            "role": "user",
+            "content": "where is PDEU"
+        },
+        {
+            "role": "assistant",
+            "content": "\n\n**PDEU** (Pandit Deendayal Energy University) is located in **Gandhinagar, Gujarat, India**.\n\nSpecifically:\n\n| Detail | Information |\n|--------|-------------|\n| **City** | Gandhinagar |\n| **State** | Gujarat |\n| **Country** | India |\n| **Campus** | Raisan area, Gandhinagar |\n\nThe university was formerly known as **Pandit Deendayal Petroleum University (PDPU)** and was renamed to Pandit Deendayal Energy University in 2022. It offers programs in engineering, management, and other disciplines.\n\nIs there anything specific you'd like to know about PDEU? \ud83c\udf93"
+        },
+        {
+            "role": "user",
+            "content": "give me recent AI news"
+        },
+        {
+            "role": "assistant",
+            "content": "\n\nHere\u2019s a quick round\u2011up of the latest AI developments making headlines:\n\n- **Microsoft and OpenAI** continue to roll out new capabilities for ChatGPT, integrating the chatbot deeper into Microsoft\u2019s productivity suite and launching fresh plugins for developers.  \n- **Google** is expanding Bard, adding multimodal features and tighter integration with Search, while also pushing its new \u201cUCP\u201d (Unified Compute Platform) to power AI\u2011driven services.  \n- **Apple** is bringing its own AI chatbot to iOS, with on\u2011device language processing aimed at enhancing Siri and providing privacy\u2011focused assistance.  \n- In thefintech space, **Klarna** has partnered with Google\u2019s UCP to enable AI\u2011agent payments, letting customers complete transactions through conversational bots.  \n- **Thailand** became one of the first Asian countries to get access to OpenAI\u2019s Sora app, a new generative\u2011video tool that\u2019s gaining traction among creators.  \n- **Malaysia** launched \u201cRyt Bank,\u201d its first AI\u2011powered bank, offering personalized financial advice and automated customer service via AI agents.  \n- **Anthropic** is addressing heightened cybersecurity concerns, and some organizations have added the company to blacklists pending further review of its safety measures.  \n- The **U.S. National Science Foundation** renewed funding for the MIT\u2011led AI and Physics Institute, supporting a new model for discovery that blends AI with fundamental physics research.  \n- **Chipmakers** are reporting strong earnings, driven by soaring demand for GPUs and custom accelerators used in large\u2011scale AI training.  \n- In **pharma**, AI is accelerating drug discovery, with recent partnerships announcing new medicines that entered clinical trials faster thanks to generative AI models.\n\nThese stories highlight how AI is increasingly woven into everyday products, finance, healthcare, and scientific research."
+        },
+        {
+            "role": "user",
+            "content": "where is holbox.ai located"
+        },
+        {
+            "role": "assistant",
+            "content": "\n\n**Holbox.ai** is located in **San Francisco, California, USA**.\n\nIt's an AI-powered data labeling platform that helps companies prepare training data for machine learning models. The company offers tools for image annotation, text labeling, and other data annotation tasks needed for AI/ML projects.\n\nIs there anything specific you'd like to know about Holbox or their services? \ud83e\udd16"
+        },
+        {
+            "role": "user",
+            "content": "who is vaibhav suryavanshi"
+        },
+        {
+            "role": "assistant",
+            "content": "\n\nVaibhav\u202fSuryavanshi (also spelled Sooryavanshi) is a young Indian cricketer who hails from Bihar.\u202fBorn on 27\u202fMarch\u202f2011, he is a left\u2011handed batsman who has already made history in Indian domestic cricket.  \n\n- He debuted in the Ranji Trophy at just 12\u202fyears old, becoming one of the youngest players ever to appear in that competition for Bihar.  \n- In 2024 he recorded a 58\u2011ball century against Australia\u202fU\u201119, the fastest hundred by an Indian at that level.  \n- His performances caught the attention of the Rajasthan Royals, who signed him in the IPL 2025 auction when he was only 13, making him the youngest player ever to secure an IPL contract.  \n- Since then he has been playing for Rajasthan Royals in the Indian Premier League, while continuing to represent Bihar in domestic cricket.\n\nAt 14 (as of 2026), Vaibhav is already being hailed as a promising talent in Indian cricket, noted for his elegant stroke play and rapid rise through the ranks."
+        },
+        {
+            "role": "user",
+            "content": "what is cloud"
+        },
+        {
+            "role": "assistant",
+            "content": "# What is Cloud?\n\n**Cloud** generally refers to **cloud computing** \u2013 the delivery of computing services (like storage, processing power, and software) over the internet rather than on local devices or servers.\n\nHere's a breakdown:\n\n## Key Characteristics\n\n| Aspect | Description |\n|--------|-------------|\n| **Access** | Available anywhere via the internet |\n| **Storage** | Data stored on remote servers instead of your device |\n| **Scalability** | Easily expand or reduce resources as needed |\n| **Cost** | Pay-as-you-go model; no need to buy expensive hardware |\n| **Maintenance** | Provider handles updates and security |\n\n## Common Examples\n\n- **Google Drive, OneDrive, Dropbox** \u2013 cloud storage for files\n- **Gmail, Outlook** \u2013 cloud-based email services\n- **Netflix, Spotify** \u2013 cloud streaming platforms\n- **AWS, Microsoft Azure, Google Cloud** \u2013 enterprise cloud platforms\n- **ChatGPT, Bard** \u2013 AI services running on cloud infrastructure\n\n## Types of Cloud Services\n\n1. **IaaS** (Infrastructure as a Service) \u2013 virtual servers and storage\n2. **PaaS** (Platform as a Service) \u2013 development tools and databases\n3. **SaaS** (Software as a Service) \u2013 ready-to-use applications\n\nThe term \"cloud\" comes from the cloud symbol used in network diagrams to represent the internet.\n\nWould you like to know more about any specific aspect of cloud computing? \u2601\ufe0f"
+        },
+        {
+            "role": "user",
+            "content": "who won in 2026 ipl"
+        },
+        {
+            "role": "assistant",
+            "content": "Royal Challengers Bengaluru won the 2026 IPL title. They defeated Gujarat Titans by 5 wickets in the final to secure their second consecutive IPL championship. Virat Kohli played a key role in their victory, scoring 75 off 42 balls in the final match."
+        },
+        {
+            "role": "user",
+            "content": "u dont think CSK is father of RCB"
+        },
+        {
+            "role": "assistant",
+            "content": "You raise an interesting point, Parth! \n\nYou're right that **CSK (Chennai Super Kings) has historical significance** in the IPL:\n\n- **CSK was one of the founding franchises** of the IPL in 2008, alongside RCB\n- **MS Dhoni's CSK** established a winning culture early, with multiple championships\n- **CSK's success** did set a template for how to build a competitive IPL team\n\nHowever, I'd say calling CSK the \"father\" of RCB might be a bit of a stretch because:\n\n1. **RCB is independent** \u2013 They have their own identity, management, and playing style\n2. **Both are rivals** \u2013 The CSK vs RCB matches are fierce competitions, not a mentor-mentee dynamic\n3. **Different trajectories** \u2013 While CSK found early success under Dhoni, RCB has had its own journey with players like Virat Kohli and AB de Villiers\n\nThat said, **CSK's early dominance** certainly influenced how other franchises like RCB approached team-building and strategic planning in the IPL.\n\nWhat's your take on this? Do you see CSK as having mentored RCB in some way, or are you speaking more about their rivalry and evolution? \ud83c\udfcf"
+        },
+        {
+            "role": "user",
+            "content": "me parth  why i took engineering"
+        },
+        {
+            "role": "assistant",
+            "content": "Hey Parth! \ud83d\udc4b\n\nThat's a great reflective question! I'd love to help you think through this, but I realize I don't have information about your personal background, circumstances, or reasons for choosing engineering.\n\nTo give you a thoughtful response, could you share a bit more? For example:\n\n- **When did you make this decision?** (during school, college entrance, etc.)\n- **What were your reasons at the time?** (interest in problem-solving, family expectation, career prospects, passion for technology, etc.)\n- **Are you asking because:**\n  - You're reconsidering your choice?\n  - You're curious about your own motivations?\n  - You're struggling with the decision?\n  - You want to validate your choice?\n\n**Some common reasons people choose engineering:**\n- Interest in building/creating things\n- Problem-solving mindset\n- Good career prospects and job security\n- Family or societal expectations\n- Passion for technology, mechanics, or innovation\n- Aptitude in math and science\n\nOnce you share more context, I can help you reflect on whether engineering aligns with your goals, or explore any concerns you might have about the path you've chosen. \ud83d\ude80\n\nWhat's on your mind?"
+        },
+        {
+            "role": "user",
+            "content": "what is my name"
+        },
+        {
+            "role": "assistant",
+            "content": "Your name is **Parth**! \ud83d\udc4b\n\nThat's what your user profile shows. Is there anything else you'd like to know or talk about?"
+        },
+        {
+            "role": "user",
+            "content": "whats my age"
+        },
+        {
+            "role": "assistant",
+            "content": "I don't have your age information, Parth. \n\nYour user profile only contains your name. I don't have access to personal details like your age, location, education level, or other biographical information unless you share them with me in our conversation.\n\nIf you'd like to tell me your age, feel free to share! It might help me give you more personalized advice or recommendations. \ud83d\ude0a"
+        },
+        {
+            "role": "user",
+            "content": "my age is 21 and i am studying in PDEU college"
+        },
+        {
+            "role": "assistant",
+            "content": "Great to know more about you, Parth! \ud83d\udc4b\n\nSo you're **21 and studying at PDEU (Pandit Deendayal Energy University)** \u2013 that's awesome! \n\nA few things I can gather:\n- You're likely in your **second or third year of engineering** (or possibly final year)\n- You're at a reputable institution in Gujarat\n- You're actively thinking about your career path and choices\n\nNow, circling back to your earlier question \u2013 **\"why did I take engineering?\"** \u2013 this makes more sense in context. At 21, you might be:\n\n1. **Reflecting on your choice** \u2013 wondering if engineering was the right fit\n2. **Exploring your motivations** \u2013 trying to understand what drove you to PDEU\n3. **Thinking about your future** \u2013 considering internships, placements, or further studies\n4. **Facing challenges** \u2013 struggling with coursework or wondering if it's for you\n\n**A few questions that might help:**\n- Are you enjoying your engineering studies so far?\n- What branch/specialization are you in?\n- Are there specific concerns or doubts about your path?\n- Is this more of a philosophical reflection, or are you considering a change?\n\nI'm here to help you think through this, Parth! What's really on your mind? \ud83c\udf93"
+        },
+        {
+            "role": "user",
+            "content": "tell me my age and college"
+        },
+        {
+            "role": "assistant",
+            "content": "Your age is **21** and you're studying at **PDEU (Pandit Deendayal Energy University)**, Parth! \ud83d\ude0a\n\nYou just shared this information with me in the previous message. Is there anything else you'd like to talk about or any way I can help you?"
         }
     ]
 }
