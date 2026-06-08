@@ -1,0 +1,40 @@
+{
+    "default": [
+        {
+            "role": "user",
+            "content": "how's weather today in ahmedabad"
+        },
+        {
+            "role": "user",
+            "content": "how's the weather in ahmedabad today"
+        },
+        {
+            "role": "user",
+            "content": "weather today ahmedabd"
+        },
+        {
+            "role": "user",
+            "content": "weather today ahmedabad"
+        },
+        {
+            "role": "assistant",
+            "content": "{'success': False, 'status_code': 404, 'is_json': True, 'body': {'error': 'Not found: POST /'}, 'headers': {'Date': 'Mon, 08 Jun 2026 05:38:21 GMT', 'Content-Type': 'application/json', 'Content-Length': '30', 'Connection': 'keep-alive', 'x-amzn-RequestId': '9597fb43-dcb0-4ca9-b708-ea9997868072', 'access-control-allow-origin': '*', 'X-Amzn-Trace-Id': 'Root=1-6a26554d-71235b2b183283314cd8a0ae;Parent=19999def15cf7dfb;Sampled=0;Lineage=1:3351b6b2:0'}}"
+        },
+        {
+            "role": "user",
+            "content": "weather today surat\n"
+        },
+        {
+            "role": "assistant",
+            "content": "{'success': False, 'status_code': 404, 'is_json': True, 'body': {'error': 'Not found: POST /'}, 'headers': {'Date': 'Mon, 08 Jun 2026 05:40:24 GMT', 'Content-Type': 'application/json', 'Content-Length': '30', 'Connection': 'keep-alive', 'x-amzn-RequestId': 'cbafbf61-dd07-4458-89fd-c799c665000b', 'access-control-allow-origin': '*', 'X-Amzn-Trace-Id': 'Root=1-6a2655c8-776a7c874c3327346eb1a554;Parent=382116c007a6e40a;Sampled=0;Lineage=1:3351b6b2:0'}}"
+        },
+        {
+            "role": "user",
+            "content": "what is 2+2?"
+        },
+        {
+            "role": "assistant",
+            "content": "{'success': False, 'status_code': 404, 'is_json': True, 'body': {'error': 'Not found: POST /'}, 'headers': {'Date': 'Mon, 08 Jun 2026 05:40:51 GMT', 'Content-Type': 'application/json', 'Content-Length': '30', 'Connection': 'keep-alive', 'x-amzn-RequestId': '59281558-28d4-4e44-a7ff-ba10a5c0e62e', 'access-control-allow-origin': '*', 'X-Amzn-Trace-Id': 'Root=1-6a2655e3-0888bc2474dba55a0fceef35;Parent=5d16f23e83a232ae;Sampled=0;Lineage=1:3351b6b2:0'}, 'url': 'https://eukizcct6w32475lph4xt5l5cm0cndov.lambda-url.us-east-1.on.aws'}"
+        }
+    ]
+}
