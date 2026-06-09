@@ -1,8 +1,20 @@
 import time
 import streamlit as st
 
-from core.session_manager import add_message
-from core.memory_manager import update_profile_from_message
+# from core.session_manager import add_message
+# from core.memory_manager import update_profile_from_message
+from core.session_manager import (
+    add_message,
+    get_messages,
+    trim_session,
+    should_summarize
+)
+
+from core.memory_manager import (
+    update_profile_from_message,
+    generate_conversation_summary,
+    save_summary
+)
 from core.context_manager import ContextManager
 from tools.search_tool import search_web
 from infrastructure.logger import AgentLogger
@@ -254,6 +266,51 @@ if user_message:
         "assistant",
         response
     )
+    # ----------------------------------
+    # Automatic Memory Compression
+    # ----------------------------------
+    if should_summarize(SESSION_ID):
+
+        try:
+
+            all_messages = get_messages(
+                SESSION_ID
+            )
+
+            messages_to_summarize = (
+                all_messages[:-5]
+            )
+
+            if len(messages_to_summarize) > 0:
+
+                summary = (
+                    generate_conversation_summary(
+                        messages_to_summarize
+                    )
+                )
+
+                save_summary(
+                    SESSION_ID,
+                    summary
+                )
+                print(
+    f"Messages before trim: {len(all_messages)}"
+                )
+
+                trim_session(
+                    SESSION_ID,
+                    keep_last=2
+                )
+
+                st.toast(
+                    "🧠 Memory summarized successfully"
+                )
+
+        except Exception as e:
+
+            print(
+                f"Summary generation failed: {e}"
+            )
 
     # -------------------------
     # Render Assistant Message

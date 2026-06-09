@@ -372,5 +372,170 @@
         "output_tokens": 419,
         "total_tokens": 3909,
         "response_time": 10.56
+    },
+    {
+        "timestamp": "2026-06-09T13:50:56Z",
+        "query": "write a table of 5",
+        "agent": "general",
+        "model": "us.amazon.nova-lite-v1:0",
+        "needs_search": false,
+        "input_tokens": 4265,
+        "output_tokens": 265,
+        "total_tokens": 4530,
+        "response_time": 3.87
+    },
+    {
+        "timestamp": "2026-06-09T14:24:49Z",
+        "query": "hi",
+        "agent": "general",
+        "model": "us.amazon.nova-lite-v1:0",
+        "needs_search": false,
+        "input_tokens": 74,
+        "output_tokens": 30,
+        "total_tokens": 104,
+        "response_time": 1.9
+    },
+    {
+        "timestamp": "2026-06-09T14:25:31Z",
+        "query": "hi i am parth",
+        "agent": "general",
+        "model": "us.amazon.nova-lite-v1:0",
+        "needs_search": false,
+        "input_tokens": 74,
+        "output_tokens": 39,
+        "total_tokens": 113,
+        "response_time": 2.13
+    },
+    {
+        "timestamp": "2026-06-09T14:26:13Z",
+        "query": "what is python",
+        "agent": "general",
+        "model": "us.amazon.nova-lite-v1:0",
+        "needs_search": false,
+        "input_tokens": 149,
+        "output_tokens": 97,
+        "total_tokens": 246,
+        "response_time": 2.51
+    },
+    {
+        "timestamp": "2026-06-09T14:32:19Z",
+        "query": "hi",
+        "agent": "general",
+        "model": "us.amazon.nova-lite-v1:0",
+        "needs_search": false,
+        "input_tokens": 74,
+        "output_tokens": 30,
+        "total_tokens": 104,
+        "response_time": 1.92
+    },
+    {
+        "timestamp": "2026-06-09T14:32:28Z",
+        "query": "what is python",
+        "agent": "general",
+        "model": "us.amazon.nova-lite-v1:0",
+        "needs_search": false,
+        "input_tokens": 136,
+        "output_tokens": 271,
+        "total_tokens": 407,
+        "response_time": 3.65
+    },
+    {
+        "timestamp": "2026-06-09T14:32:50Z",
+        "query": "where to use it",
+        "agent": "general",
+        "model": "us.amazon.nova-lite-v1:0",
+        "needs_search": false,
+        "input_tokens": 463,
+        "output_tokens": 414,
+        "total_tokens": 877,
+        "response_time": 4.67
+    },
+    {
+        "timestamp": "2026-06-09T14:33:28Z",
+        "query": "okay tell me why java is used",
+        "agent": "general",
+        "model": "us.amazon.nova-lite-v1:0",
+        "needs_search": false,
+        "input_tokens": 1074,
+        "output_tokens": 411,
+        "total_tokens": 1485,
+        "response_time": 5.02
+    },
+    {
+        "timestamp": "2026-06-09T14:33:42Z",
+        "query": "who found java",
+        "agent": "general",
+        "model": "us.amazon.nova-lite-v1:0",
+        "needs_search": false,
+        "input_tokens": 1628,
+        "output_tokens": 95,
+        "total_tokens": 1723,
+        "response_time": 2.76
+    },
+    {
+        "timestamp": "2026-06-09T14:38:54Z",
+        "query": "hey how doing",
+        "agent": "general",
+        "model": "us.amazon.nova-lite-v1:0",
+        "needs_search": false,
+        "input_tokens": 602,
+        "output_tokens": 43,
+        "total_tokens": 645,
+        "response_time": 2.29
+    },
+    {
+        "timestamp": "2026-06-09T14:39:10Z",
+        "query": "what u know about delhi",
+        "agent": "general",
+        "model": "us.amazon.nova-lite-v1:0",
+        "needs_search": false,
+        "input_tokens": 679,
+        "output_tokens": 510,
+        "total_tokens": 1189,
+        "response_time": 4.68
+    },
+    {
+        "timestamp": "2026-06-09T14:39:54Z",
+        "query": "best time to visit delhi?",
+        "agent": "general",
+        "model": "us.amazon.nova-lite-v1:0",
+        "needs_search": true,
+        "input_tokens": 1609,
+        "output_tokens": 169,
+        "total_tokens": 1778,
+        "response_time": 14.91
+    },
+    {
+        "timestamp": "2026-06-09T14:47:55Z",
+        "query": "tell me about pdeu",
+        "agent": "general",
+        "model": "us.amazon.nova-lite-v1:0",
+        "needs_search": true,
+        "input_tokens": 1045,
+        "output_tokens": 315,
+        "total_tokens": 1360,
+        "response_time": 4.59
+    },
+    {
+        "timestamp": "2026-06-09T14:48:12Z",
+        "query": "what is fever",
+        "agent": "medical",
+        "model": "us.anthropic.claude-sonnet-4-6",
+        "needs_search": false,
+        "input_tokens": 1246,
+        "output_tokens": 512,
+        "total_tokens": 1758,
+        "response_time": 10.72
+    },
+    {
+        "timestamp": "2026-06-09T14:48:38Z",
+        "query": "write a code for addition",
+        "agent": "coding",
+        "model": "qwen.qwen3-coder-next",
+        "needs_search": false,
+        "input_tokens": 1645,
+        "output_tokens": 152,
+        "total_tokens": 1797,
+        "response_time": 11.56
     }
 ]
