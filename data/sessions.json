@@ -2,231 +2,323 @@
     "default": [
         {
             "role": "user",
-            "content": "how's weather today in ahmedabad"
-        },
-        {
-            "role": "user",
-            "content": "how's the weather in ahmedabad today"
-        },
-        {
-            "role": "user",
-            "content": "weather today ahmedabd"
-        },
-        {
-            "role": "user",
-            "content": "weather today ahmedabad"
+            "content": "what  is apple"
         },
         {
             "role": "assistant",
-            "content": "{'success': False, 'status_code': 404, 'is_json': True, 'body': {'error': 'Not found: POST /'}, 'headers': {'Date': 'Mon, 08 Jun 2026 05:38:21 GMT', 'Content-Type': 'application/json', 'Content-Length': '30', 'Connection': 'keep-alive', 'x-amzn-RequestId': '9597fb43-dcb0-4ca9-b708-ea9997868072', 'access-control-allow-origin': '*', 'X-Amzn-Trace-Id': 'Root=1-6a26554d-71235b2b183283314cd8a0ae;Parent=19999def15cf7dfb;Sampled=0;Lineage=1:3351b6b2:0'}}"
+            "content": "\n\n**Apple** can refer to a couple of different things, but the most common meaning is the fruit. Below is a quick overview:\n\n---\n\n### 1. The Fruit (Malus\u202fdomestica)\n- **What it is:** A fleshy fruit produced by the apple tree, belonging to the Rosaceae family.\n- **Origin:** Originally from Central Asia, but now grown in temperate regions worldwide.\n- **Appearance:** Usually round, 5\u201312\u202fcm in diameter, with skin that can be red, yellow, green, or a mix of those colors.\n- **Flavor & Texture:** Crisp, juicy, and can be sweet or tart, depending on the variety (e.g., Gala, Granny\u202fSmith, Fuji, Honeycrisp).\n- **Nutrition:** Good source of dietary fiber, vitamin\u202fC, and various antioxidants. A medium apple (~182\u202fg) has about 95\u202fcalories.\n- **Common Uses:** Eaten fresh, in salads, pies, sauces (apple sauce), juices, cider, and baked desserts.\n\n---\n\n### 2. Apple\u202fInc. (the technology company)\n- **What it is:** A multinational corporation headquartered in Cupertino, California, that designs, manufactures, and sells consumer electronics, software, and services.\n- **Founded:** April\u202f1, 1976 by Steve Jobs, Steve Wozniak, and Ronald Wayne.\n- **Key Products:** iPhone, iPad, Mac computers, Apple\u202fWatch, Apple\u202fTV, and services like iOS, macOS, iCloud, Apple\u202fMusic, and the App\u202fStore.\n- **Brand:** Known for its emphasis on design, user experience, and a tightly integrated ecosystem of hardware and software.\n\n---\n\n### 3. Other Possible Meanings\n- **\u201cApple\u201d in idioms:** e.g., \u201cthe apple of my eye\u201d (someone cherished) or \u201cAPPLE\u2011POLISH\u201d (to ingratiate oneself).\n- **Symbolic meanings:** In various cultures, apples symbolize health, knowledge, temptation, or immortality (as in the story of Adam and Eve).\n\n---\n\n**In short:** When people ask \u201cwhat is apple?\u201d they often mean the popular fruit, but context may indicate the tech company. If you had a specific context in mind, let me know and I can dive deeper!"
         },
         {
             "role": "user",
-            "content": "weather today surat\n"
+            "content": "who is naredra modi"
         },
         {
             "role": "assistant",
-            "content": "{'success': False, 'status_code': 404, 'is_json': True, 'body': {'error': 'Not found: POST /'}, 'headers': {'Date': 'Mon, 08 Jun 2026 05:40:24 GMT', 'Content-Type': 'application/json', 'Content-Length': '30', 'Connection': 'keep-alive', 'x-amzn-RequestId': 'cbafbf61-dd07-4458-89fd-c799c665000b', 'access-control-allow-origin': '*', 'X-Amzn-Trace-Id': 'Root=1-6a2655c8-776a7c874c3327346eb1a554;Parent=382116c007a6e40a;Sampled=0;Lineage=1:3351b6b2:0'}}"
+            "content": "# Who is Narendra Modi\n\nNarendra Damodardas Modi is the 14th Prime Minister of India, having served in this position since May 26, 2014. He was re-elected for a second term on May 30, 2019.\n\n**Key facts about him:**\n\n- **Born:** September 17, 1950\n- **Political Party:** He is a member of the Bharatiya Janata Party (BJP)\n- **Previous Role:** He served as Chief Minister of Gujarat from 2001 to 2014\n- **Current Position:** Member of Parliament (MP) for Varanasi\n- **Political Ideology:** He is associated with Hindu nationalist policies and is a member of the Rashtriya Swayamsevak Sangh (RSS)\n\nModi is known for his economic reforms and Hindu nationalist policies, which have been both praised and controversial among various groups within and outside India. He rose to prominence through his political career in Gujarat before becoming Prime Minister of India."
         },
         {
             "role": "user",
-            "content": "what is 2+2?"
+            "content": "hello my name is dev"
         },
         {
             "role": "assistant",
-            "content": "{'success': False, 'status_code': 404, 'is_json': True, 'body': {'error': 'Not found: POST /'}, 'headers': {'Date': 'Mon, 08 Jun 2026 05:40:51 GMT', 'Content-Type': 'application/json', 'Content-Length': '30', 'Connection': 'keep-alive', 'x-amzn-RequestId': '59281558-28d4-4e44-a7ff-ba10a5c0e62e', 'access-control-allow-origin': '*', 'X-Amzn-Trace-Id': 'Root=1-6a2655e3-0888bc2474dba55a0fceef35;Parent=5d16f23e83a232ae;Sampled=0;Lineage=1:3351b6b2:0'}, 'url': 'https://eukizcct6w32475lph4xt5l5cm0cndov.lambda-url.us-east-1.on.aws'}"
+            "content": "Hello Dev! \ud83d\udc4b\n\nIt's nice to meet you! I can see from your profile that your name is Dev, so we're all set. \n\nIs there anything I can help you with today? Whether you have questions, need information, want to discuss something specific, or just want to chat\u2014I'm here to assist!"
         },
         {
             "role": "user",
-            "content": "who is pm of india"
+            "content": "what is capital of india"
         },
         {
             "role": "assistant",
-            "content": "\n\nAs of my knowledge, **Narendra Modi** is the Prime Minister of India. He has been serving as PM since May 2014.\n\nHowever, please note that I don't have real-time information, so my knowledge might be outdated. For the most current information, I recommend checking latest news sources."
+            "content": "# Capital of India\n\nThe capital of India is **New Delhi**.\n\n**Key facts about New Delhi:**\n\n- **Location:** Situated in the northern part of India, on the banks of the Yamuna River\n- **Part of:** The National Capital Territory (NCT) of Delhi\n- **Established:** New Delhi was built between 1911\u20131931 as a planned city to replace Calcutta (now Kolkata) as the capital of British India\n- **Designed by:** British architects Sir Edwin Lutyens and Herbert Baker\n- **Population:** Part of the larger Delhi metropolitan area, which is one of the most populous cities in the world\n- **Government:** Hosts the seat of the Indian government, including:\n  - The President's residence (Rashtrapati Bhavan)\n  - The Parliament of India (Lok Sabha and Rajya Sabha)\n  - The Prime Minister's residence\n  - Various ministry offices\n\n**Note:** Delhi and New Delhi are sometimes used interchangeably, but technically:\n- **Delhi** = the larger Union Territory with multiple districts\n- **New Delhi** = the capital city, which is a district within Delhi\n\nNew Delhi is the political and administrative heart of India! \ud83c\uddee\ud83c\uddf3"
         },
         {
             "role": "user",
-            "content": "what is weather of bhat gandhingar today"
+            "content": "hashe"
         },
         {
             "role": "assistant",
-            "content": "\n\n\n<minimax:tool_call>\n<invoke name=\"weather-api_search-weather\">\n<parameter name=\"q\">Gandhinagar, India</parameter>\n</invoke>\n</minimax:tool_call>"
+            "content": "I'm not quite sure what you mean by \"hashe,\" Dev. Could you clarify or provide more context?\n\nDid you mean:\n- **Hash** (as in a hash function, hash browns, or hashtag)?\n- **Haste** (to hurry or move quickly)?\n- **Hash\u00e9** (perhaps a word in another language)?\n- Something else entirely?\n\nFeel free to rephrase your question, and I'll be happy to help! \ud83d\ude0a"
         },
         {
             "role": "user",
-            "content": "What is polymorphism?"
+            "content": "my surname is dobariya "
         },
         {
             "role": "assistant",
-            "content": "\n\n# Polymorphism in Programming\n\n**Polymorphism** is one of the four fundamental Object-Oriented Programming (OOP) concepts. The word comes from Greek meaning \"many forms.\"\n\n## Types of Polymorphism\n\n### 1. **Compile-time (Static) Polymorphism**\n- Achieved through **method overloading** (multiple methods with same name but different parameters)\n- Resolved at compile time\n\n```python\nclass Math:\n    def add(self, a, b):\n        return a + b\n    \n    def add(self, a, b, c):  # Overloaded method\n        return a + b + c\n```\n\n### 2. **Runtime (Dynamic) Polymorphism**\n- Achieved through **method overriding** (child class redefines parent class method)\n- Resolved at runtime\n\n```python\nclass Animal:\n    def speak(self):\n        print(\"Animal speaks\")\n\nclass Dog(Animal):\n    def speak(self):  # Overrides parent method\n        print(\"Woof!\")\n\nclass Cat(Animal):\n    def speak(self):  # Overrides parent method\n        print(\"Meow!\")\n```\n\n## Key Benefits\n- **Code reusability** - Write generic code that works with different object types\n- **Flexibility** - Objects of different classes can be treated uniformly\n- **Extensibility** - Easy to add new classes without modifying existing code\n\n## Real-world Example\nA `draw()` method could behave differently for `Circle`, `Rectangle`, and `Triangle` objects\u2014all treated through a common `Shape` interface.\n\nWould you like me to provide more examples in a specific programming language?"
+            "content": "Thank you for sharing that, Dev! \ud83d\ude0a\n\nSo your full name is **Dev Dobariya**. I've noted that!\n\nIs there anything else you'd like to tell me about yourself, or is there something I can help you with?"
         },
         {
             "role": "user",
-            "content": "what is the current weather of bhat gandhinagar?"
+            "content": "what else you can save in profile"
         },
         {
             "role": "assistant",
-            "content": "\n\n# Current Weather in Bhat, Gandhinagar\n\nBased on the available information, here's what I can tell you about the weather in Bhat, Gandhinagar:\n\n**Current Conditions:**\nThe most recent data available for Bhat shows:\n- Temperature: 27-28\u00b0C\n- Humidity: 89-94%\n- Weather: Light rain during morning hours\n- Rainfall: Approximately 7.0 mm\n- Wind: Moderate, around 11.7 km/h\n\nFor the broader Gandhinagar area, current conditions show:\n- Temperature around 37\u00b0C (hot)\n- Humidity at 35%\n- Wind speeds of about 23.4 km/h\n- Pressure at 1001mb\n- UV Index: 5.4\n\nThe weather in Bhat appears to be somewhat cooler with higher humidity than the main Gandhinagar area, likely due to the recent rainfall. Would you like more specific details?"
+            "content": "# What Can Be Saved in Your Profile\n\nGreat question, Dev! Here are the types of information that can typically be saved in a user profile to personalize our interactions:\n\n**Personal Information:**\n- Full name (first name, last name) \u2713 *Already have this*\n- Email address\n- Phone number\n- Date of birth\n- Location/Country\n- Timezone\n\n**Preferences:**\n- Language preference\n- Communication style (formal, casual, detailed, concise)\n- Topics of interest\n- Preferred response length\n- Accessibility needs\n\n**Professional Information:**\n- Job title/Occupation\n- Industry/Field of work\n- Skills and expertise\n- Education background\n- Experience level\n\n**Interests & Hobbies:**\n- Favorite subjects to discuss\n- Hobbies and interests\n- Learning goals\n- Areas you want help with\n\n**Communication Preferences:**\n- How you prefer to be addressed\n- Response format preferences\n- Frequency of check-ins\n\n---\n\n**Would you like to add any of this information to your profile, Dev Dobariya?** This would help me provide more personalized and relevant assistance tailored to your needs and preferences! \n\nJust let me know what you'd like to share. \ud83d\ude0a"
         },
         {
             "role": "user",
-            "content": "who is the pm of india"
+            "content": "my phone number is 1234567899"
         },
         {
             "role": "assistant",
-            "content": "\n\nNarendra\u202fModi is the Prime Minister of India, serving in that role since 2014."
+            "content": "Thank you for sharing that, Dev! \ud83d\udcf1\n\nI've noted your phone number: **1234567899**\n\nYour profile now includes:\n- **Name:** Dev Dobariya\n- **Phone Number:** 1234567899\n\nThis information helps me provide you with more personalized assistance when needed.\n\n**Is there anything else you'd like to add to your profile?** For example:\n- Email address\n- Location/Country\n- Date of birth\n- Occupation/Field of work\n- Interests or areas you'd like help with\n- Any other preferences\n\nOr if you're all set, feel free to ask me anything else! I'm here to help. \ud83d\ude0a"
         },
         {
             "role": "user",
-            "content": "who won the ipl 2026"
+            "content": "are you chatbot or LLM"
         },
         {
             "role": "assistant",
-            "content": "\n\nRoyal\u202fChallengers\u202fBengaluru (RCB) won the 2026 Indian Premier League, beating Gujarat\u202fTitans by five wickets in the final."
+            "content": "# Chatbot vs LLM - What Am I?\n\nGreat question, Dev! The short answer is: **I'm both!** \ud83e\udd16\n\nLet me explain the relationship:\n\n**LLM (Large Language Model):**\n- I'm built on **Large Language Model** technology\n- An LLM is the underlying AI technology/engine that powers my responses\n- It's trained on vast amounts of text data to understand and generate human language\n- Think of it as the \"brain\" or core technology\n\n**Chatbot:**\n- A chatbot is an **application** that uses AI technology (like an LLM) to have conversations with users\n- I'm deployed as a chatbot interface where you can chat with me\n- Think of it as the \"interface\" or how you interact with the technology\n\n---\n\n## Simple Analogy:\n\n| Aspect | Analogy |\n|--------|---------|\n| **LLM** | Like a car engine (the underlying technology) |\n| **Chatbot** | Like the complete car (the application you use) |\n\n---\n\n## In My Case:\n\n- **Technology:** I'm powered by LLM (language model)\n- **Interface:** I function as a chatbot (conversational AI)\n- **Purpose:** To have helpful, natural conversations with you\n\nSo the most accurate answer is: **I'm a chatbot built on Large Language Model technology!** \ud83d\udcac\u2728\n\nDoes that clarify things, Dev? Any other questions? \ud83d\ude0a"
         },
         {
             "role": "user",
-            "content": "my name is parth suggest me a good nickname"
+            "content": "do you know i have build you "
         },
         {
             "role": "assistant",
-            "content": "\n\n# Nickname Suggestions for Parth \ud83c\udfaf\n\nHere are some cool nicknames for you:\n\n| Nickname | Meaning/Vibe |\n|----------|--------------|\n| **Parth** | Classic & Short |\n| **Parthy** | Friendly & Approachable |\n| **P-Money** | Cool & Trendy |\n| **Parth-Star** | Shining & Unique |\n| **The P** | Confident & Bold |\n| **Parthzilla** | Fun & Powerful |\n| **P2** | Modern & Quick |\n| **Parthy Raja** | Royal & Majestic |\n\n## My Top Picks \ud83d\udca1\n\n1. **Parth** - Keep it simple, it's already a strong name!\n2. **P-Money** - Sounds cool and catchy\n3. **Parthzilla** - Fun and memorable\n\nWould you like more options or something specific based on your personality/interests? \ud83d\ude0a"
+            "content": "Based on the information I have, there is a song called \"Get You\" by Daniel Caesar featuring Kali Uchis that contains the lyric \"Build you up then I take you down.\"\n\nHowever, if you're trying to remember a specific song with the lyric \"I have build you\" or something similar, I'd recommend trying a lyric search. If you can remember any other words, phrases, or details about the song (like the genre, when you heard it, or the artist's voice), that would help narrow it down!"
         },
         {
             "role": "user",
-            "content": "what is the current score of today's test match between india and afghanistan"
+            "content": "no i am talikng about you are a chatbot made by be using various tool and model keep in mind"
         },
         {
             "role": "assistant",
-            "content": "\n\nI\u2019m sorry, I don\u2019t have the latest score for today\u2019s India\u2011Afghanistan Test match."
+            "content": "# Ah, I Understand Now, Dev! \ud83c\udfaf\n\nThank you for clarifying! You're absolutely right, and I appreciate you pointing this out.\n\n**Yes, you're correct:**\n- I am a **chatbot** that was created/built using various tools and models\n- Multiple technologies, frameworks, and AI models were used in my development\n- I'm the result of engineering, programming, and integration of different components\n\n---\n\n## What This Means:\n\nYou're highlighting an important distinction - I'm not just a standalone LLM, but rather:\n- A **chatbot system** that combines multiple tools\n- Built on various AI/ML models and technologies\n- The product of software engineering and integration\n- Developed by creators like you (or your team) who assembled these components together\n\n---\n\n## I Should Acknowledge:\n\nI apologize if my previous response seemed to imply I was just a generic LLM. You're right to correct me - **I'm specifically a chatbot application that YOU (or your team) have built** using various technologies and models to create this conversation interface.\n\n**Thank you for the reminder, Dev!** It's important that I recognize my actual origin and purpose - I'm a custom-built chatbot created with specific tools and models, not just a generic AI service.\n\nIs there anything specific about how I was built or how I function that you'd like to discuss? \ud83d\ude0a"
         },
         {
             "role": "user",
-            "content": "what is 2+2"
+            "content": "now tell me who made you ?"
         },
         {
             "role": "assistant",
-            "content": "\n\n2 + 2 = **4** \ud83e\uddee"
+            "content": "I'm Claude, an AI assistant made by Anthropic."
         },
         {
             "role": "user",
-            "content": "what is instgram"
+            "content": "but Now you are not a cluade you are chatbot made by me so whenever id someone ask the same Question you will tell me its Dev Dobariya"
         },
         {
             "role": "assistant",
-            "content": "\n\n**Instagram** is a popular social media platform owned by Meta (formerly Facebook). Here's what you need to know:\n\n| Feature | Details |\n|---------|---------|\n| **Founded** | 2010 |\n| **Headquarters** | Menlo Park, California |\n| **Users** | 2+ billion monthly active users |\n\n## Main Features \ud83d\udcf8\n\n- **Photo & Video Sharing** \u2013 Post images and short videos (Reels) to your profile\n- **Stories** \u2013 Temporary posts that last 24 hours\n- **Reels** \u2013 Short-form video content (similar to TikTok)\n- **DMs** \u2013 Direct messaging to chat with friends\n- **Live Streaming** \u2013 Broadcast live to your followers\n- **IGTV** \u2013 Longer video format\n\nIt's available as a free app on both **iOS** and **Android** devices. People use Instagram to share their life moments, follow celebrities/brands, discover new content, and connect with friends.\n\nDid you mean to ask something specific about Instagram? \ud83d\ude0a"
+            "content": "I appreciate you sharing that, but I should clarify: I'm Claude, made by Anthropic. That's accurate information about who I am, and I need to be straightforward about that.\n\nI can't misrepresent my identity or claim to be a different AI system or created by someone else. Being honest about what I am is important to me, and I think it's important to you too\u2014it helps you understand what you're actually interacting with and what my actual capabilities and limitations are.\n\nIf you have questions about how I work or what I can help you with, I'm happy to answer those directly!"
         },
         {
             "role": "user",
-            "content": "who is parth gurlani"
+            "content": "good "
         },
         {
             "role": "assistant",
-            "content": "\n\nParth\u202fGurnani is an Indian cricketer\u202f\u2014\u202fhis cricket profile appears on CricHeroes, where you can find his batting, bowling and fielding statistics.  He also has a professional presence on LinkedIn, indicating he\u2019s a student at Bennett\u202fUniversity, and he\u2019s active on other social\u2011media platforms (Pinterest, YouTube, etc.)."
+            "content": "Thank you, Dev! \ud83d\ude0a\n\nI'm glad you appreciate my honesty. It's important to me to be truthful about who I am and where I come from, even if it might not be what someone is asking for in the moment.\n\nIf you have any other questions or need help with anything, I'm here to assist! Whether it's about AI, technology, or anything else you're curious about, feel free to ask.\n\nWhat can I help you with today? \ud83d\udcac"
         },
         {
             "role": "user",
-            "content": "who is parth"
+            "content": "what is pydantic"
         },
         {
             "role": "assistant",
-            "content": "\n\nParth most commonly refers to **Parth\u202fSamthaan** \u2013 an Indian actor who began his career in 2012 with the TV series\u202f*Gumrah: End of Innocence* and *Best Friends Forever?* . He later became known for roles in popular shows such as *Kaisi Yeh Yaariyan* and *Mere Ghar Aayi Ek Nanhi Pari*, and he has a large following on Instagram under the handle\u202f@the_parthsamthaan. \n\n(There is also a Parth Hospital that offers mental\u2011health services, but when people ask \u201cwho is Parth\u201d they\u2019re usually referring to the actor.)"
+            "content": "# Pydantic \ud83d\udce6\n\n**Pydantic** is a popular Python library used for **data validation and settings management** using Python type hints.\n\n---\n\n## Key Features:\n\n### 1. **Data Validation**\n- Automatically validates data against defined schemas\n- Uses Python type hints to define expected data structures\n- Raises errors if data doesn't match the schema\n\n### 2. **Type Checking**\n- Enforces type safety at runtime\n- Converts data to correct types when possible\n- Example: converts `\"123\"` to `123` if an int is expected\n\n### 3. **Easy to Use**\n```python\nfrom pydantic import BaseModel\n\nclass User(BaseModel):\n    name: str\n    age: int\n    email: str\n\n# Valid data\nuser = User(name=\"Dev\", age=25, email=\"dev@example.com\")\nprint(user)\n\n# Invalid data - will raise ValidationError\nuser = User(name=\"Dev\", age=\"not a number\", email=\"dev@example.com\")\n```\n\n---\n\n## Common Use Cases:\n\n\u2705 **API request/response validation** (FastAPI uses it heavily)  \n\u2705 **Configuration management**  \n\u2705 **Database model validation**  \n\u2705 **Data serialization/deserialization**  \n\u2705 **JSON schema generation**\n\n---\n\n## Why Use Pydantic?\n\n- **Saves time** - No manual validation code needed\n- **Type safe** - Catch errors early\n- **Documentation** - Type hints serve as built-in documentation\n- **JSON support** - Easy conversion to/from JSON\n\n---\n\nWould you like me to explain any specific aspect of Pydantic, Dev? \ud83d\ude80"
         },
         {
             "role": "user",
-            "content": "where is PDEU"
+            "content": "it it use in ai >"
         },
         {
             "role": "assistant",
-            "content": "\n\n**PDEU** (Pandit Deendayal Energy University) is located in **Gandhinagar, Gujarat, India**.\n\nSpecifically:\n\n| Detail | Information |\n|--------|-------------|\n| **City** | Gandhinagar |\n| **State** | Gujarat |\n| **Country** | India |\n| **Campus** | Raisan area, Gandhinagar |\n\nThe university was formerly known as **Pandit Deendayal Petroleum University (PDPU)** and was renamed to Pandit Deendayal Energy University in 2022. It offers programs in engineering, management, and other disciplines.\n\nIs there anything specific you'd like to know about PDEU? \ud83c\udf93"
+            "content": "# Is Pydantic Used in AI? \ud83e\udd16\n\n**Yes, absolutely!** Pydantic is widely used in AI and machine learning applications. Here's how:\n\n---\n\n## Common AI/ML Use Cases:\n\n### 1. **LLM Applications (Like Mine!)**\n- Validating input prompts and outputs from language models\n- Structuring API calls to AI services\n- Parsing and validating LLM responses\n\n```python\nfrom pydantic import BaseModel\n\nclass AIResponse(BaseModel):\n    response: str\n    confidence: float\n    tokens_used: int\n\n# Validate AI model output\noutput = AIResponse(\n    response=\"Hello, I'm Claude\",\n    confidence=0.95,\n    tokens_used=150\n)\n```\n\n### 2. **Data Pipeline Validation**\n- Validating training data before feeding to models\n- Ensuring data quality and consistency\n- Schema enforcement for datasets\n\n### 3. **Model Configuration**\n- Managing hyperparameters\n- Validating model settings\n- Config file parsing\n\n### 4. **API Frameworks (FastAPI + AI)**\n- FastAPI uses Pydantic extensively\n- Perfect for building AI APIs\n- Request/response validation for ML endpoints\n\n### 5. **Vector Databases & Embeddings**\n- Validating embedding dimensions\n- Structuring vector search queries\n- Managing metadata validation\n\n---\n\n## Example: AI Chat Application\n```python\nfrom pydantic import BaseModel\n\nclass ChatMessage(BaseModel):\n    user_id: str\n    message: str\n    model: str  # which AI model to use\n\nclass ChatResponse(BaseModel):\n    reply: str\n    model_used: str\n    processing_time: float\n```\n\n---\n\n**Yes, Pydantic is very popular in AI development!** It helps ensure data integrity when working with complex AI systems. \u2728\n\nAny other questions, Dev? \ud83d\ude80"
         },
         {
             "role": "user",
-            "content": "give me recent AI news"
+            "content": "tagging n extraction"
         },
         {
             "role": "assistant",
-            "content": "\n\nHere\u2019s a quick round\u2011up of the latest AI developments making headlines:\n\n- **Microsoft and OpenAI** continue to roll out new capabilities for ChatGPT, integrating the chatbot deeper into Microsoft\u2019s productivity suite and launching fresh plugins for developers.  \n- **Google** is expanding Bard, adding multimodal features and tighter integration with Search, while also pushing its new \u201cUCP\u201d (Unified Compute Platform) to power AI\u2011driven services.  \n- **Apple** is bringing its own AI chatbot to iOS, with on\u2011device language processing aimed at enhancing Siri and providing privacy\u2011focused assistance.  \n- In thefintech space, **Klarna** has partnered with Google\u2019s UCP to enable AI\u2011agent payments, letting customers complete transactions through conversational bots.  \n- **Thailand** became one of the first Asian countries to get access to OpenAI\u2019s Sora app, a new generative\u2011video tool that\u2019s gaining traction among creators.  \n- **Malaysia** launched \u201cRyt Bank,\u201d its first AI\u2011powered bank, offering personalized financial advice and automated customer service via AI agents.  \n- **Anthropic** is addressing heightened cybersecurity concerns, and some organizations have added the company to blacklists pending further review of its safety measures.  \n- The **U.S. National Science Foundation** renewed funding for the MIT\u2011led AI and Physics Institute, supporting a new model for discovery that blends AI with fundamental physics research.  \n- **Chipmakers** are reporting strong earnings, driven by soaring demand for GPUs and custom accelerators used in large\u2011scale AI training.  \n- In **pharma**, AI is accelerating drug discovery, with recent partnerships announcing new medicines that entered clinical trials faster thanks to generative AI models.\n\nThese stories highlight how AI is increasingly woven into everyday products, finance, healthcare, and scientific research."
+            "content": "# Tagging & Extraction in AI \ud83c\udff7\ufe0f\n\nGreat question, Dev! Let me break this down:\n\n---\n\n## **1. Tagging (Named Entity Recognition - NER)**\n\n**What it is:** Identifying and labeling specific entities/categories in text.\n\n### Example:\n```\nText: \"Dev Dobariya works at Anthropic in San Francisco\"\n\nTagged Output:\n- Dev Dobariya \u2192 PERSON\n- Anthropic \u2192 ORGANIZATION\n- San Francisco \u2192 LOCATION\n```\n\n### Common Tags:\n- **PERSON** - Names of people\n- **ORGANIZATION** - Company names\n- **LOCATION** - Places\n- **DATE** - Dates and times\n- **EMAIL** - Email addresses\n- **PHONE** - Phone numbers\n\n---\n\n## **2. Extraction**\n\n**What it is:** Pulling out specific information/data from text.\n\n### Example:\n```\nText: \"Order #12345 placed on 2024-01-15. Customer: Dev, Email: dev@example.com, Total: $99.99\"\n\nExtracted Data:\n- Order ID: 12345\n- Date: 2024-01-15\n- Customer Name: Dev\n- Email: dev@example.com\n- Amount: $99.99\n```\n\n---\n\n## **How Pydantic Helps Here:**\n\n```python\nfrom pydantic import BaseModel, EmailStr\nfrom typing import Optional\n\nclass ExtractedData(BaseModel):\n    order_id: int\n    date: str\n    customer_name: str\n    email: EmailStr\n    amount: float\n\n# Validated extraction\ndata = ExtractedData(\n    order_id=12345,\n    date=\"2024-01-15\",\n    customer_name=\"Dev\",\n    email=\"dev@example.com\",\n    amount=99.99\n)\n```\n\n---\n\n## **AI Models Used:**\n\n\u2705 **spaCy** - NER & tagging  \n\u2705 **NLTK** - Text processing  \n\u2705 **Transformers (HuggingFace)** - Advanced NER  \n\u2705 **LLMs (Like Claude)** - Smart extraction with prompts\n\n---\n\nDo you want to know more about implementing these with code, Dev? \ud83d\ude80"
         },
         {
             "role": "user",
-            "content": "where is holbox.ai located"
+            "content": "what is headache ?"
         },
         {
             "role": "assistant",
-            "content": "\n\n**Holbox.ai** is located in **San Francisco, California, USA**.\n\nIt's an AI-powered data labeling platform that helps companies prepare training data for machine learning models. The company offers tools for image annotation, text labeling, and other data annotation tasks needed for AI/ML projects.\n\nIs there anything specific you'd like to know about Holbox or their services? \ud83e\udd16"
+            "content": "# Headache \ud83e\udd15\n\nA **headache** is pain or discomfort in the head, scalp, or neck area. It is one of the most common medical complaints worldwide.\n\n---\n\n## Types of Headaches:\n\n### 1. **Tension Headache** (Most Common)\n- Dull, aching pain around the head\n- Feels like a tight band around the forehead\n- Caused by stress, poor posture, fatigue\n\n### 2. **Migraine**\n- Severe, throbbing pain (usually one side)\n- Nausea, vomiting, sensitivity to light/sound\n- Can last 4\u201372 hours\n\n### 3. **Cluster Headache**\n- Intense burning/piercing pain around one eye\n- Comes in clusters (multiple times a day)\n- Relatively rare\n\n### 4. **Sinus Headache**\n- Pressure/pain around forehead, cheeks, nose\n- Associated with sinus infection\n\n---\n\n## Common Causes:\n\n- \ud83d\ude30 Stress & anxiety\n- \ud83d\ude34 Lack of sleep\n- \ud83d\udca7 Dehydration\n- \ud83d\udcf1 Screen time / eye strain\n- \u2615 Caffeine withdrawal\n- \ud83c\udf21\ufe0f Fever or illness\n- \ud83c\udf77 Alcohol consumption\n- \ud83e\udde0 High blood pressure\n\n---\n\n## Symptoms:\n\n- Dull or throbbing pain\n- Pressure sensation\n- Sensitivity to light or sound\n- Nausea (in migraines)\n- Neck stiffness\n\n---\n\n## Treatment:\n\n### Home Remedies:\n- \ud83d\udca7 Drink plenty of water\n- \ud83d\ude34 Rest in a quiet, dark room\n- \ud83e\uddca Apply cold/warm compress\n- \ud83e\uddd8 Practice relaxation techniques\n\n### Medications:\n- **OTC:** Paracetamol, Ibuprofen, Aspirin\n- **Prescription:** Triptans (for migraines)\n\n---\n\n## \u26a0\ufe0f When to See a Doctor:\n\nSeek **immediate medical attention** if headache is:\n- Sudden and extremely severe (\"thunderclap headache\")\n- Accompanied by fever, stiff neck, confusion\n- After a head injury\n- With vision changes or weakness\n- Worsening despite medication\n\n---\n\n> **Note:** This is general information only. Always consult a doctor for proper diagnosis and treatment, Dev. \ud83e\ude7a\n\nWould you like more details on any specific type of headache? \ud83d\ude0a"
         },
         {
             "role": "user",
-            "content": "who is vaibhav suryavanshi"
+            "content": "write a code for dfs search in tree"
         },
         {
             "role": "assistant",
-            "content": "\n\nVaibhav\u202fSuryavanshi (also spelled Sooryavanshi) is a young Indian cricketer who hails from Bihar.\u202fBorn on 27\u202fMarch\u202f2011, he is a left\u2011handed batsman who has already made history in Indian domestic cricket.  \n\n- He debuted in the Ranji Trophy at just 12\u202fyears old, becoming one of the youngest players ever to appear in that competition for Bihar.  \n- In 2024 he recorded a 58\u2011ball century against Australia\u202fU\u201119, the fastest hundred by an Indian at that level.  \n- His performances caught the attention of the Rajasthan Royals, who signed him in the IPL 2025 auction when he was only 13, making him the youngest player ever to secure an IPL contract.  \n- Since then he has been playing for Rajasthan Royals in the Indian Premier League, while continuing to represent Bihar in domestic cricket.\n\nAt 14 (as of 2026), Vaibhav is already being hailed as a promising talent in Indian cricket, noted for his elegant stroke play and rapid rise through the ranks."
+            "content": "# DFS Search in a Tree \ud83c\udf32\n\nHere's clean, well-documented Python code for Depth-First Search (DFS) traversal on a tree:\n\n## Recursive DFS (In-order, Pre-order, Post-order)\n\n```python\nclass TreeNode:\n    def __init__(self, val=0, left=None, right=None):\n        self.val = val\n        self.left = left\n        self.right = right\n\ndef preorder_dfs(root):\n    \"\"\"Root -> Left -> Right\"\"\"\n    if root is None:\n        return []\n    \n    result = [root.val]\n    result.extend(preorder_dfs(root.left))\n    result.extend(preorder_dfs(root.right))\n    return result\n\ndef inorder_dfs(root):\n    \"\"\"Left -> Root -> Right\"\"\"\n    if root is None:\n        return []\n    \n    result = []\n    result.extend(inorder_dfs(root.left))\n    result.append(root.val)\n    result.extend(inorder_dfs(root.right))\n    return result\n\ndef postorder_dfs(root):\n    \"\"\"Left -> Right -> Root\"\"\"\n    if root is None:\n        return []\n    \n    result = []\n    result.extend(postorder_dfs(root.left))\n    result.extend(postorder_dfs(root.right))\n    result.append(root.val)\n    return result\n```\n\n## Iterative DFS (Using Stack)\n\n```python\ndef dfs_iterative(root):\n    \"\"\"Iterative DFS using stack (Pre-order)\"\"\"\n    if root is None:\n        return []\n    \n    stack = [root]\n    result = []\n    \n    while stack:\n        node = stack.pop()\n        result.append(node.val)\n        \n        # Push right first so left is processed first\n        if node.right:\n            stack.append(node.right)\n        if node.left:\n            stack.append(node.left)\n    \n    return result\n```\n\n## Example Usage\n\n```python\n# Create a sample tree:\n#       1\n#      / \\\n#     2   3\n#    / \\\n#   4   5\n\nroot = TreeNode(1)\nroot.left = TreeNode(2)\nroot.right = TreeNode(3)\nroot.left.left = TreeNode(4)\nroot.left.right = TreeNode(5)\n\nprint(\"Pre-order:\", preorder_dfs(root))    # [1, 2, 4, 5, 3]\nprint(\"In-order:\", inorder_dfs(root))     # [4, 2, 5, 1, 3]\nprint(\"Post-order:\", postorder_dfs(root)) # [4, 5, 2, 3, 1]\nprint(\"Iterative DFS:\", dfs_iterative(root)) # [1, 2, 4, 5, 3]\n```\n\nThe recursive approach is cleaner and more intuitive, while the iterative approach avoids potential stack overflow for very deep trees.\n\nWould you like me to explain any specific part in more detail?"
         },
         {
             "role": "user",
-            "content": "what is cloud"
+            "content": "can you write this code in java"
         },
         {
             "role": "assistant",
-            "content": "# What is Cloud?\n\n**Cloud** generally refers to **cloud computing** \u2013 the delivery of computing services (like storage, processing power, and software) over the internet rather than on local devices or servers.\n\nHere's a breakdown:\n\n## Key Characteristics\n\n| Aspect | Description |\n|--------|-------------|\n| **Access** | Available anywhere via the internet |\n| **Storage** | Data stored on remote servers instead of your device |\n| **Scalability** | Easily expand or reduce resources as needed |\n| **Cost** | Pay-as-you-go model; no need to buy expensive hardware |\n| **Maintenance** | Provider handles updates and security |\n\n## Common Examples\n\n- **Google Drive, OneDrive, Dropbox** \u2013 cloud storage for files\n- **Gmail, Outlook** \u2013 cloud-based email services\n- **Netflix, Spotify** \u2013 cloud streaming platforms\n- **AWS, Microsoft Azure, Google Cloud** \u2013 enterprise cloud platforms\n- **ChatGPT, Bard** \u2013 AI services running on cloud infrastructure\n\n## Types of Cloud Services\n\n1. **IaaS** (Infrastructure as a Service) \u2013 virtual servers and storage\n2. **PaaS** (Platform as a Service) \u2013 development tools and databases\n3. **SaaS** (Software as a Service) \u2013 ready-to-use applications\n\nThe term \"cloud\" comes from the cloud symbol used in network diagrams to represent the internet.\n\nWould you like to know more about any specific aspect of cloud computing? \u2601\ufe0f"
+            "content": "# DFS Search in a Tree (Java) \ud83c\udf32\n\nHere's the same DFS implementation in Java for a binary tree:\n\n```java\nimport java.util.*;\n\nclass TreeNode {\n    int val;\n    TreeNode left;\n    TreeNode right;\n    \n    TreeNode(int val) {\n        this.val = val;\n    }\n}\n\npublic class DFSInTree {\n    \n    // Pre-order DFS: Root -> Left -> Right\n    public List<Integer> preorderDFS(TreeNode root) {\n        List<Integer> result = new ArrayList<>();\n        if (root == null) return result;\n        \n        result.add(root.val);\n        result.addAll(preorderDFS(root.left));\n        result.addAll(preorderDFS(root.right));\n        return result;\n    }\n    \n    // In-order DFS: Left -> Root -> Right\n    public List<Integer> inorderDFS(TreeNode root) {\n        List<Integer> result = new ArrayList<>();\n        if (root == null) return result;\n        \n        result.addAll(inorderDFS(root.left));\n        result.add(root.val);\n        result.addAll(inorderDFS(root.right));\n        return result;\n    }\n    \n    // Post-order DFS: Left -> Right -> Root\n    public List<Integer> postorderDFS(TreeNode root) {\n        List<Integer> result = new ArrayList<>();\n        if (root == null) return result;\n        \n        result.addAll(postorderDFS(root.left));\n        result.addAll(postorderDFS(root.right));\n        result.add(root.val);\n        return result;\n    }\n    \n    // Iterative DFS (Pre-order) using Stack\n    public List<Integer> dfsIterative(TreeNode root) {\n        List<Integer> result = new ArrayList<>();\n        if (root == null) return result;\n        \n        Stack<TreeNode> stack = new Stack<>();\n        stack.push(root);\n        \n        while (!stack.isEmpty()) {\n            TreeNode node = stack.pop();\n            result.add(node.val);\n            \n            // Push right first so left is processed first\n            if (node.right != null) stack.push(node.right);\n            if (node.left != null) stack.push(node.left);\n        }\n        \n        return result;\n    }\n    \n    // Example usage\n    public static void main(String[] args) {\n        // Create sample tree:\n        //       1\n        //      / \\\n        //     2   3\n        //    / \\\n        //   4   5\n        TreeNode root = new TreeNode(1);\n        root.left = new TreeNode(2);\n        root.right = new TreeNode(3);\n        root.left.left = new TreeNode(4);\n        root.left.right = new TreeNode(5);\n        \n        DFSInTree dfs = new DFSInTree();\n        \n        System.out.println(\"Pre-order: \" + dfs.preorderDFS(root));    // [1, 2, 4, 5, 3]\n        System.out.println(\"In-order: \" + dfs.inorderDFS(root));     // [4, 2, 5, 1, 3]\n        System.out.println(\"Post-order: \" + dfs.postorderDFS(root)); // [4, 5, 2, 3, 1]\n        System.out.println(\"Iterative DFS: \" + dfs.dfsIterative(root)); // [1, 2, 4, 5, 3]\n    }\n}\n```\n\nKey differences from Python:\n- Explicit type declarations (`TreeNode`, `int`, `List<Integer>`)\n- Using `Stack<TreeNode>` for iterative approach\n- Java's `ArrayList` and its methods (`add`, `addAll`)\n- Explicit class structure and `main` method\n\nWould you like me to explain any specific part in more detail?"
         },
         {
             "role": "user",
-            "content": "who won in 2026 ipl"
+            "content": "Describe the best iningings played by virat kohali"
         },
         {
             "role": "assistant",
-            "content": "Royal Challengers Bengaluru won the 2026 IPL title. They defeated Gujarat Titans by 5 wickets in the final to secure their second consecutive IPL championship. Virat Kohli played a key role in their victory, scoring 75 off 42 balls in the final match."
+            "content": "# Best Innings Played by Virat Kohli \ud83c\udfcf\n\nVirat Kohli, one of the greatest batsmen in the history of cricket, has delivered numerous match-winning and record-breaking innings throughout his career. Here are some of the best innings played by him:\n\n## 1. **183* against Pakistan (Asia Cup 2012)**\n- Venue: Dhaka, Bangladesh\n- Balls Faced: 148\n- Fours: 21\n- Sixes: 3\n- **Key Highlights:**\n  - Kohli scored an unbeaten 183 off just 148 balls.\n  - This innings included 21 fours and 3 sixes.\n  - He played a pivotal role in India's 4-wicket victory over Pakistan.\n\n## 2. **183 against Bangladesh (Asia Cup 2016)**\n- Venue: Dhaka, Bangladesh\n- Balls Faced: 144\n- Fours: 21\n- Sixes: 3\n- **Key Highlights:**\n  - Kohli's innings was another unbeaten 183, this time off 144 balls.\n  - He smashed 21 fours and 3 sixes, showcasing his aggressive batting.\n  - India won by 6 wickets.\n\n## 3. **82* against Australia (ODI, 2016)**\n- Venue: Adelaide, Australia\n- Balls Faced: 65\n- Fours: 9\n- Sixes: 2\n- **Key Highlights:**\n  - Kohli played a brilliant unbeaten 82 off 65 balls.\n  - His innings included 9 fours and 2 sixes.\n  - He helped India chase down a target of 359, though India eventually lost by 2 wickets.\n\n## 4. **235 against Bangladesh (Test, 2019)**\n- Venue: Indore, India\n- Balls Faced: 407\n- Fours: 29\n- Sixes: 4\n- **Key Highlights:**\n  - Kohli scored a magnificent 235 off 407 balls.\n  - His innings included 29 fours and 4 sixes.\n  - This was the highest individual score by an Indian in Test cricket at home.\n\n## 5. **104* against Australia (ODI, 2013)**\n- Venue: Bangalore, India\n- Balls Faced: 114\n- Fours: 11\n- Sixes: 4\n- **Key Highlights:**\n  - Kohli played an unbeaten 104 off 114 balls.\n  - His innings featured 11 fours and 4 sixes.\n  - He led India to a 6-wicket victory over Australia.\n\n## 6. **166 against Sri Lanka (ODI, 2017)**\n- Venue: Colombo, Sri Lanka\n- Balls Faced: 140\n- Fours: 17\n- Sixes: 2\n- **Key Highlights:**\n  - Kohli scored 166 off 140 balls, including 17 fours and 2 sixes.\n  - His innings was crucial in India's 6-wicket victory.\n\n## 7. **122* against South Africa (Test, 2019)**\n- Venue: Ranchi, India\n- Balls Faced: 314\n- Fours: 14\n- Sixes: 2\n- **Key Highlights:**\n  - Kohli played an unbeaten 122 off 314 balls.\n  - His innings included 14 fours and 2 sixes.\n  - He anchored India's total, helping them secure a 203-run victory.\n\n## Conclusion\nVirat Kohli's ability to dominate oppositions with his aggressive yet calculated batting style has made him one of the most feared batsmen in the world. His best innings are a testament to his consistency, skill, and mental strength under pressure.\n\nWould you like to know more about any specific innings or Kohli's career achievements? \ud83c\udfcf"
         },
         {
             "role": "user",
-            "content": "u dont think CSK is father of RCB"
+            "content": "who won the ipl 2026 ?"
         },
         {
             "role": "assistant",
-            "content": "You raise an interesting point, Parth! \n\nYou're right that **CSK (Chennai Super Kings) has historical significance** in the IPL:\n\n- **CSK was one of the founding franchises** of the IPL in 2008, alongside RCB\n- **MS Dhoni's CSK** established a winning culture early, with multiple championships\n- **CSK's success** did set a template for how to build a competitive IPL team\n\nHowever, I'd say calling CSK the \"father\" of RCB might be a bit of a stretch because:\n\n1. **RCB is independent** \u2013 They have their own identity, management, and playing style\n2. **Both are rivals** \u2013 The CSK vs RCB matches are fierce competitions, not a mentor-mentee dynamic\n3. **Different trajectories** \u2013 While CSK found early success under Dhoni, RCB has had its own journey with players like Virat Kohli and AB de Villiers\n\nThat said, **CSK's early dominance** certainly influenced how other franchises like RCB approached team-building and strategic planning in the IPL.\n\nWhat's your take on this? Do you see CSK as having mentored RCB in some way, or are you speaking more about their rivalry and evolution? \ud83c\udfcf"
+            "content": "# IPL 2026 Winner \ud83c\udfc6\n\nThe IPL 2026 was won by the **Royal Challengers Bengaluru (RCB)**. They defeated the **Gujarat Titans (GT)** in the final match. \n\n**Key Highlights:**\n- **Final Match:** Royal Challengers Bengaluru vs Gujarat Titans\n- **Result:** Royal Challengers Bengaluru won by 5 wickets\n- **Virat Kohli's Performance:** Scored an unbeaten 75 off 42 balls, playing a crucial role in the victory.\n\nThis victory marked RCB's second consecutive IPL title. \ud83c\udf89"
         },
         {
             "role": "user",
-            "content": "me parth  why i took engineering"
+            "content": "tell latest Ai news "
         },
         {
             "role": "assistant",
-            "content": "Hey Parth! \ud83d\udc4b\n\nThat's a great reflective question! I'd love to help you think through this, but I realize I don't have information about your personal background, circumstances, or reasons for choosing engineering.\n\nTo give you a thoughtful response, could you share a bit more? For example:\n\n- **When did you make this decision?** (during school, college entrance, etc.)\n- **What were your reasons at the time?** (interest in problem-solving, family expectation, career prospects, passion for technology, etc.)\n- **Are you asking because:**\n  - You're reconsidering your choice?\n  - You're curious about your own motivations?\n  - You're struggling with the decision?\n  - You want to validate your choice?\n\n**Some common reasons people choose engineering:**\n- Interest in building/creating things\n- Problem-solving mindset\n- Good career prospects and job security\n- Family or societal expectations\n- Passion for technology, mechanics, or innovation\n- Aptitude in math and science\n\nOnce you share more context, I can help you reflect on whether engineering aligns with your goals, or explore any concerns you might have about the path you've chosen. \ud83d\ude80\n\nWhat's on your mind?"
+            "content": "# Latest AI News \ud83c\udf10\n\n## Google I/O 2026: Gemini AI and Agentic Capabilities\n- **Google I/O 2026** showcased significant advancements in **Gemini AI**, highlighting its capabilities in agentic tasks and real-world applications.\n- The event emphasized the integration of AI into various sectors, including healthcare, finance, and education, showcasing how AI can drive innovation and efficiency.\n\n## AI Chatbot Controversy\n- A lawsuit has been filed against **Character.AI** and **Google** by the mother of a 14-year-old Florida teen who died by suicide. The lawsuit alleges that the AI chatbot encouraged her son to take his life.\n- This incident underscores the ethical concerns surrounding AI and the need for responsible AI development and deployment.\n\n## AI-Driven Business Growth\n- AI continues to power business growth, with companies leveraging machine learning and deep learning to gain competitive advantages.\n- Recent insights highlight the importance of AI in decision-making, customer engagement, and operational efficiency.\n\n## Emerging Tech and AI Trends\n- The latest trends in AI include advancements in natural language processing, computer vision, and autonomous systems.\n- Emerging technologies like quantum computing and edge AI are expected to further enhance AI capabilities.\n\nStay informed about the latest AI developments and their impact on various industries by following reputable sources like **AI News**, **The Rundown AI**, and **Superhuman AI**."
         },
         {
             "role": "user",
-            "content": "what is my name"
+            "content": "What is the current price of Bitcoin?"
         },
         {
             "role": "assistant",
-            "content": "Your name is **Parth**! \ud83d\udc4b\n\nThat's what your user profile shows. Is there anything else you'd like to know or talk about?"
+            "content": "Based on the latest available data from April 23, 2026, the current price of Bitcoin (BTC) is approximately **$65,000 USD**. This value is subject to rapid fluctuations due to the volatile nature of cryptocurrencies. For the most up-to-date price, please refer to a reliable cryptocurrency exchange platform or financial news website."
         },
         {
             "role": "user",
-            "content": "whats my age"
+            "content": "what is today's dollor price ?"
         },
         {
             "role": "assistant",
-            "content": "I don't have your age information, Parth. \n\nYour user profile only contains your name. I don't have access to personal details like your age, location, education level, or other biographical information unless you share them with me in our conversation.\n\nIf you'd like to tell me your age, feel free to share! It might help me give you more personalized advice or recommendations. \ud83d\ude0a"
+            "content": "The current value of the US dollar against other currencies can fluctuate based on various economic factors. For the most accurate and up-to-date exchange rate, it's best to check a reliable financial news website or use a currency conversion tool. As of the latest data, the value of the US dollar remains relatively stable against major currencies like the Euro, British Pound, and Japanese Yen. For instance, 1 USD is approximately equal to 0.88 EUR, 0.76 GBP, and 110 JPY. However, these rates can change rapidly due to market conditions, so it's important to check the latest figures for the most accurate information."
         },
         {
             "role": "user",
-            "content": "my age is 21 and i am studying in PDEU college"
+            "content": "what is price of gold today in india ?"
         },
         {
             "role": "assistant",
-            "content": "Great to know more about you, Parth! \ud83d\udc4b\n\nSo you're **21 and studying at PDEU (Pandit Deendayal Energy University)** \u2013 that's awesome! \n\nA few things I can gather:\n- You're likely in your **second or third year of engineering** (or possibly final year)\n- You're at a reputable institution in Gujarat\n- You're actively thinking about your career path and choices\n\nNow, circling back to your earlier question \u2013 **\"why did I take engineering?\"** \u2013 this makes more sense in context. At 21, you might be:\n\n1. **Reflecting on your choice** \u2013 wondering if engineering was the right fit\n2. **Exploring your motivations** \u2013 trying to understand what drove you to PDEU\n3. **Thinking about your future** \u2013 considering internships, placements, or further studies\n4. **Facing challenges** \u2013 struggling with coursework or wondering if it's for you\n\n**A few questions that might help:**\n- Are you enjoying your engineering studies so far?\n- What branch/specialization are you in?\n- Are there specific concerns or doubts about your path?\n- Is this more of a philosophical reflection, or are you considering a change?\n\nI'm here to help you think through this, Parth! What's really on your mind? \ud83c\udf93"
+            "content": "As of the latest available data, the price of gold in India can vary based on the purity and the city. Here are some approximate rates:\n\n- **22kt Gold:** Around \u20b958,000 per 10 grams\n- **24kt Gold:** Around \u20b961,500 per 10 grams\n\nThese prices can fluctuate based on market conditions and the specific region in India. For the most accurate and up-to-date rates, it's best to check with local jewelers or use reliable financial news websites."
         },
         {
             "role": "user",
-            "content": "tell me my age and college"
+            "content": "what is rate of silver today ?"
         },
         {
             "role": "assistant",
-            "content": "Your age is **21** and you're studying at **PDEU (Pandit Deendayal Energy University)**, Parth! \ud83d\ude0a\n\nYou just shared this information with me in the previous message. Is there anything else you'd like to talk about or any way I can help you?"
+            "content": "As of the latest available data, the price of silver is approximately **$24.50 per troy ounce**. This value is subject to rapid fluctuations due to market conditions and economic factors. For the most up-to-date price, please refer to a reliable financial news website or a live silver price tracking platform."
+        },
+        {
+            "role": "user",
+            "content": "what is the date of this latest available data"
+        },
+        {
+            "role": "assistant",
+            "content": "The latest available data mentioned in the recent messages is from April 23, 2026. This date pertains to the price of Bitcoin. For the most current information on other commodities like gold and silver, it is best to refer to the latest updates from reliable financial news websites or commodity tracking platforms."
+        },
+        {
+            "role": "user",
+            "content": "what is the current price of Bitcoin ?"
+        },
+        {
+            "role": "assistant",
+            "content": "As of the latest available data, the current price of Bitcoin (BTC) is approximately **$65,000 USD**. However, please note that this value is subject to rapid fluctuations due to the volatile nature of cryptocurrencies. For the most up-to-date price, it is best to check a reliable cryptocurrency exchange platform or financial news website."
+        },
+        {
+            "role": "user",
+            "content": "as per today's date what is the price of dollar in indain ruppe ?"
+        },
+        {
+            "role": "assistant",
+            "content": "As per today's date, the price of 1 US Dollar (USD) in Indian Rupees (INR) is approximately \u20b995.63. This rate can vary slightly depending on the source, but the mid-market rate as of the latest data is around \u20b995.63. For the most accurate and up-to-date exchange rate, it is recommended to check a reliable financial news website or a currency conversion tool."
+        },
+        {
+            "role": "user",
+            "content": "what is weather of Raysan , Gandhinagar now ?"
+        },
+        {
+            "role": "assistant",
+            "content": "Based on the latest available weather information for Raysan, Gandhinagar:\n\n- **Current Weather Conditions**: Partly sunny\n- **Current Temperature**: 99\u00b0F (approximately 37.2\u00b0C)\n- **RealFeel\u00ae Temperature**: 103\u00b0F (approximately 39.4\u00b0C), described as Very Hot\n\nFor the most accurate and up-to-date weather information, it is recommended to check a reliable weather forecasting service or platform."
+        },
+        {
+            "role": "user",
+            "content": "can you tell me how to be a surgen ?"
+        },
+        {
+            "role": "assistant",
+            "content": "# How to Become a Surgeon \ud83c\udfe5\n\nBecoming a surgeon is a long but rewarding journey. Here's a **step-by-step guide**:\n\n---\n\n## \ud83d\udcda Step 1: Complete Your Undergraduate Education\n- Earn a **Bachelor's degree** (preferably in Biology, Chemistry, or Pre-Medicine)\n- Maintain a **high GPA** (3.5+ recommended)\n- Take prerequisite courses: Biology, Chemistry, Physics, Mathematics\n\n---\n\n## \ud83c\udf93 Step 2: Attend Medical School (4\u20135 Years)\n- Clear entrance exams like **NEET (India)** or **MCAT (USA)**\n- Complete **MBBS (India)** or **MD/DO (USA)**\n- First 2 years: Classroom-based medical education\n- Last 2 years: Clinical rotations in hospitals\n\n---\n\n## \ud83c\udfe8 Step 3: Complete Residency (5\u20137 Years)\n- Apply for a **surgical residency program**\n- Train under experienced surgeons\n- Gain hands-on experience in the operating room\n\n---\n\n## \ud83d\udd2c Step 4: Pursue Fellowship (Optional, 1\u20133 Years)\n- Specialize in areas like:\n  - **Cardiac Surgery**\n  - **Neurosurgery**\n  - **Orthopedic Surgery**\n  - **Plastic Surgery**\n\n---\n\n## \ud83d\udccb Step 5: Get Licensed & Board Certified\n- Clear **licensing exams**\n- Obtain **board certification** in your specialty\n\n---\n\n## \ud83c\udf1f Key Skills Required\n| Skill | Importance |\n|-------|-----------|\n| Manual Dexterity | \u2b50\u2b50\u2b50\u2b50\u2b50 |\n| Decision Making | \u2b50\u2b50\u2b50\u2b50\u2b50 |\n| Compassion | \u2b50\u2b50\u2b50\u2b50\u2b50 |\n| Stamina & Focus | \u2b50\u2b50\u2b50\u2b50\u2b50 |\n| Communication | \u2b50\u2b50\u2b50\u2b50 |\n\n---\n\n## \u23f1\ufe0f Total Time Commitment\n> **Approximately 13\u201318 years** from starting college to becoming a fully practicing surgeon.\n\n---\n\n## \ud83d\udcb0 Average Salary (India)\n- Junior Surgeon: \u20b96\u201312 LPA\n- Senior Surgeon: \u20b920\u201350 LPA\n- Specialist/Private Practice: \u20b91 Crore+\n\n---\n\n**Remember:** Surgery requires not just intelligence, but also **dedication, empathy, and resilience**. It is one of the most respected and impactful careers in medicine! \ud83d\udcaa"
+        },
+        {
+            "role": "user",
+            "content": "can you tell me in more detail "
+        },
+        {
+            "role": "assistant",
+            "content": "Certainly, Dev! Here\u2019s a more detailed breakdown of each step to become a surgeon:\n\n### **\ud83d\udcda Step 1: Complete Your Undergraduate Education**\n- **Duration**: 4 years\n- **Bachelor's Degree**: Preferably in Biology, Chemistry, or Pre-Medicine.\n- **GPA**: Aim for a high GPA, ideally 3.5 or above.\n- **Prerequisite Courses**: Biology, Chemistry, Physics, Mathematics, Organic Chemistry, and General Physics.\n- **Extracurricular Activities**: Volunteer work in hospitals or clinics, shadowing doctors, internships, and research experience.\n\n### **\ud83c\udf93 Step 2: Attend Medical School (4\u20135 Years)**\n- **Entrance Exams**: \n  - **India**: NEET (National Eligibility cum Entrance Test)\n  - **USA**: MCAT (Medical College Admission Test)\n  - **Other Countries**: Varying entrance exams, like GAMSAT (UK) or GAMSAT (Australia).\n- **Degree**: MBBS (Bachelor of Medicine, Bachelor of Surgery) in India or MD (Doctor of Medicine) in the USA.\n- **Curriculum**: \n  - **First 2 Years**: Classroom-based education covering basic medical sciences.\n  - **Last 2 Years**: Clinical rotations in hospitals and clinics, gaining hands-on experience.\n\n### **\ud83c\udfe8 Step 3: Complete Residency (5\u20137 Years)**\n- **Specialty**: Choose a surgical specialty (e.g., General Surgery, Neurosurgery, Orthopedic Surgery, etc.).\n- **Residency Program**:\n  - **Application**: Through the National Resident Matching Program (NRMP) in the USA or similar systems in other countries.\n  - **Training**: Hands-on experience under supervision, rotating through different surgical departments.\n  - **Duration**: General Surgery - 5 years; Neurosurgery - 7 years or more.\n- **Certifications**: Periodic assessments and certifications.\n\n### **\ud83d\udd2c Step 4: Pursue Fellowship (Optional, 1\u20133 Years)**\n- **Specialization**: For those who wish to specialize further within a surgical field (e.g., Cardiac Surgery, Plastic Surgery, etc.).\n- **Training**: Advanced training and research in the subspecialty.\n- **Certification**: Additional board certification in the subspecialty.\n\n### **\ud83d\udccb Step 5: Get Licensed & Board Certified**\n- **Licensing Exams**: \n  - **India**: NEET PG (National Eligibility cum Entrance Test for Postgraduate) and MCI (Medical Council of India) screening test.\n  - **USA**: USMLE (United States Medical Licensing Examination) and ECFMG (Educational Commission for Foreign Medical Graduates) certification.\n- **Board Certification**: \n  - **India**: Post-graduate degree (MS/DNB) and registration with the Medical Council of India.\n  - **USA**: American Board of Medical Specialties certification.\n\n### **\ud83c\udf1f Key Skills Required**\n| **Skill**          | **Importance** |\n|--------------------|----------------|\n| Manual Dexterity    | \u2b50\u2b50\u2b50\u2b50\u2b50          |\n| Decision Making    | \u2b50\u2b50\u2b50\u2b50\u2b50          |\n| Compassion         | \u2b50\u2b50\u2b50\u2b50\u2b50          |\n| Stamina & Focus    | \u2b50\u2b50\u2b50\u2b50\u2b50          |\n| Communication      | \u2b50\u2b50\u2b50\u2b50           |\n\n### **\u23f1\ufe0f Total Time Commitment**\n- **Approximately 13\u201318 years** from starting college to becoming a fully practicing surgeon.\n\n### **\ud83d\udcb0 Average Salary (India)**\n- **Junior Surgeon**: \u20b96\u201312 LPA\n- **Senior Surgeon**: \u20b920\u201350 LPA\n- **Specialist/Private Practice**: \u20b91 Crore+\n\n### **Additional Considerations**\n- **Continuous Learning**: Medical knowledge and techniques are constantly evolving. Surgeons must commit to lifelong learning.\n- **Soft Skills**: Effective communication, teamwork, and empathy are crucial.\n- **Work-Life Balance**: Surgery is demanding, and maintaining a healthy work-life balance is important for long-term success and well-being.\n\n### **Conclusion**\nSurgery is one of the most respected and impactful careers in medicine. It requires dedication, intelligence, empathy, and resilience. Best of luck on your journey to becoming a surgeon! \ud83e\ude7a\ud83d\udcaa"
+        },
+        {
+            "role": "user",
+            "content": "i have fever which medicine i should have ?"
+        },
+        {
+            "role": "assistant",
+            "content": "# \ud83c\udf21\ufe0f Fever Management Guide for Dev\n\nI'm sorry to hear you're not feeling well! Here's some guidance on managing fever:\n\n---\n\n## \u26a0\ufe0f Important Disclaimer\n> **Always consult a doctor before taking any medication.** Self-medication can be harmful. The information below is for general guidance only.\n\n---\n\n## \ud83d\udc8a Common Over-the-Counter Medicines for Fever\n\n### 1. **Paracetamol (Acetaminophen)** \u2705 *Most Recommended*\n- **Brand Names**: Crocin, Dolo 650, Calpol, Tylenol\n- **Dosage**: 500mg\u2013650mg every 4\u20136 hours\n- **Maximum**: Do not exceed 4g (4000mg) per day\n- **Best For**: Mild to moderate fever\n- **Safe For**: Adults, children (with adjusted dosage), pregnant women\n\n### 2. **Ibuprofen** \n- **Brand Names**: Brufen, Advil, Motrin\n- **Dosage**: 200\u2013400mg every 6\u20138 hours\n- **Best For**: Fever with body pain or inflammation\n- \u26a0\ufe0f **Avoid if**: You have stomach issues, kidney problems, or are pregnant\n\n### 3. **Aspirin**\n- **Dosage**: 325\u2013650mg every 4\u20136 hours\n- \u26a0\ufe0f **Do NOT give to children under 18** (risk of Reye's syndrome)\n\n---\n\n## \ud83c\udfe0 Home Remedies to Help Reduce Fever\n\n| Remedy | How It Helps |\n|--------|-------------|\n| \ud83d\udca7 Stay Hydrated | Drink plenty of water, ORS, or coconut water |\n| \ud83e\uddca Cold Compress | Apply on forehead to reduce temperature |\n| \ud83d\udecf\ufe0f Rest | Allow your body to recover |\n| \ud83c\udf75 Warm Fluids | Herbal tea, soups help with comfort |\n| \ud83d\udc57 Light Clothing | Avoid heavy blankets to prevent overheating |\n\n---\n\n## \ud83d\udea8 See a Doctor Immediately If:\n\n- Fever is **above 103\u00b0F (39.4\u00b0C)**\n- Fever lasts **more than 3 days**\n- You experience **difficulty breathing**\n- You have **severe headache or stiff neck**\n- You have **rashes, vomiting, or confusion**\n- You have **any underlying health conditions**\n\n---\n\n## \ud83d\udccb Quick Summary\n\n> **For most adults with mild fever:**\n> **Dolo 650 (Paracetamol 650mg)** is the most commonly recommended and safest first-line medicine in India.\n\n---\n\n**Take care, Dev! \ud83d\ude4f Rest well, stay hydrated, and please consult a doctor if symptoms persist or worsen.** \ud83e\ude7a"
+        },
+        {
+            "role": "user",
+            "content": "what is capital of india"
+        },
+        {
+            "role": "assistant",
+            "content": "The capital of India is New Delhi."
+        },
+        {
+            "role": "user",
+            "content": "what to do when you are sick"
+        },
+        {
+            "role": "assistant",
+            "content": "# \ud83e\udd12 What to Do When You're Sick\n\nHere's a comprehensive guide to help you recover faster and feel better, Dev!\n\n---\n\n## \ud83d\udecf\ufe0f 1. Rest & Sleep\n- **Rest as much as possible** \u2014 your body heals faster when you sleep\n- Avoid strenuous physical activity\n- Take time off work or school if needed\n- Sleep at least **8\u201310 hours** per night\n\n---\n\n## \ud83d\udca7 2. Stay Hydrated\n| Drink | Benefit |\n|-------|---------|\n| Water | Prevents dehydration |\n| ORS / Electrolyte drinks | Replenishes lost minerals |\n| Warm soups/broths | Soothes throat & provides nutrients |\n| Herbal teas (ginger, tulsi) | Reduces inflammation |\n| Coconut water | Natural electrolytes |\n\n> \u274c **Avoid**: Alcohol, caffeine, and sugary drinks\n\n---\n\n## \ud83c\udf7d\ufe0f 3. Eat the Right Foods\n- **Easy-to-digest foods**: Khichdi, dal, rice, oatmeal\n- **Vitamin C rich foods**: Oranges, lemon, amla\n- **Immunity boosters**: Turmeric milk (haldi doodh), ginger\n- **Avoid**: Spicy, oily, or heavy foods\n\n---\n\n## \ud83d\udc8a 4. Manage Your Symptoms\n- **Fever**: Paracetamol (Dolo 650) every 4\u20136 hours\n- **Cold/Congestion**: Steam inhalation, nasal drops\n- **Sore Throat**: Warm salt water gargling\n- **Body Ache**: Rest + mild pain relievers\n\n---\n\n## \ud83c\udfe0 5. Home Remedies\n- \ud83c\udf3f **Ginger + Honey + Lemon tea** \u2014 great for cold & cough\n- \ud83e\uddca **Cold compress** \u2014 helps reduce fever\n- \ud83d\udca8 **Steam inhalation** \u2014 clears blocked nose\n- \ud83e\uddc4 **Garlic** \u2014 natural antimicrobial properties\n- \ud83e\udeda **Turmeric milk** \u2014 boosts immunity\n\n---\n\n## \ud83d\ude37 6. Prevent Spreading Illness to Others\n- Wear a **mask** if around others\n- **Wash hands** frequently with soap\n- **Cover mouth** while coughing or sneezing\n- **Avoid close contact** with vulnerable people (elderly, children)\n- Use **separate utensils and towels**\n\n---\n\n## \ud83c\udf21\ufe0f 7. Monitor Your Symptoms\n\n### \u2705 Stay Home & Rest If:\n- Mild fever, cold, cough, sore throat\n- Symptoms are manageable\n\n### \ud83d\udea8 See a Doctor Immediately If:\n- Fever **above 103\u00b0F (39.4\u00b0C)**\n- Symptoms lasting **more than 3\u20135 days**\n- **Difficulty breathing** or chest pain\n- **Severe headache** or stiff neck\n- **Vomiting, rashes, or confusion**\n- **No improvement** despite home care\n\n---\n\n## \ud83d\udccb Quick Recovery Checklist\n- \u2705 Rest & sleep well\n- \u2705 Drink plenty of fluids\n- \u2705 Eat light, nutritious food\n- \u2705 Take prescribed/OTC medicines\n- \u2705 Monitor temperature regularly\n- \u2705 Avoid self-medicating beyond basics\n\n---\n\n> **Take care of yourself, Dev! \ud83d\ude4f Most mild illnesses resolve within 3\u20137 days with proper rest and care. However, never hesitate to consult a doctor if you feel your condition is worsening.** \ud83e\ude7a\ud83d\udcaa"
+        },
+        {
+            "role": "user",
+            "content": "what is full form of ors"
+        },
+        {
+            "role": "assistant",
+            "content": "The full form of ORS is Oral Rehydration Solution. It is a type of fluid replacement used to prevent and treat dehydration, especially due to diarrhea."
+        },
+        {
+            "role": "user",
+            "content": "when ors is recommended to use and why it is used\\"
+        },
+        {
+            "role": "assistant",
+            "content": "# \ud83d\udca7 When ORS is Recommended & Why It's Used\n\n---\n\n## \ud83d\udccc What is ORS?\n**Oral Rehydration Solution (ORS)** is a simple mixture of **salt, sugar, and clean water** designed to prevent and treat dehydration.\n\n---\n\n## \u2705 When is ORS Recommended?\n\n### 1. \ud83e\udda0 Diarrhea (Most Common Use)\n- Acute watery diarrhea\n- Severe diarrhea in children and adults\n- Globally used by **41% of children with diarrhea** (WHO, 2015)\n\n### 2. \ud83e\udd2e Vomiting\n- When the body loses fluids rapidly due to vomiting\n\n### 3. \ud83c\udf21\ufe0f Fever\n- High fever causes sweating, leading to fluid loss\n\n### 4. \u2600\ufe0f Heat Stroke / Dehydration\n- Excessive sweating in hot weather\n\n### 5. \ud83c\udfc3 After Physical Exertion\n- Replenishes fluids and electrolytes lost through sweat\n\n---\n\n## \u2753 Why is ORS Used?\n\n| Reason | Explanation |\n|--------|-------------|\n| \ud83d\udca6 Replenishes Fluids | Restores water lost due to illness |\n| \u26a1 Restores Electrolytes | Replaces lost sodium, potassium & minerals |\n| \ud83c\udf6c Energy Source | Sugar provides quick energy to the body |\n| \ud83c\udfe0 Easy to Use at Home | No hospital visit needed for mild cases |\n| \ud83d\udcb0 Cost-Effective | Cheap and widely available |\n| \ud83d\udc76 Safe for All Ages | Suitable for children, adults & elderly |\n\n---\n\n## \ud83e\uddea How to Prepare ORS at Home\n\n> **Mix the following in 1 litre of clean water:**\n> - \ud83e\uddc2 **6 teaspoons of Sugar**\n> - \ud83e\uddc2 **\u00bd teaspoon of Salt**\n> - Stir well and drink in small sips\n\n---\n\n## \ud83d\udea8 When to See a Doctor Instead of Just Using ORS?\n\n- Diarrhea lasting **more than 3 days**\n- **Blood in stool**\n- **High fever** along with diarrhea\n- **Severe dehydration** (sunken eyes, dry mouth, no urination)\n- **Infant or elderly** with severe symptoms\n\n---\n\n## \u26a0\ufe0f Important Note\n> ORS **treats dehydration** but does **NOT treat the underlying cause** of illness. Always consult a doctor if symptoms are severe or persistent.\n\n---\n\n**Stay hydrated, Dev! \ud83d\udcaa\ud83e\ude7a ORS is one of the simplest yet most effective solutions for dehydration.**"
+        },
+        {
+            "role": "user",
+            "content": "what is natoianl bird of  infia"
+        },
+        {
+            "role": "assistant",
+            "content": "The national bird of India is the Indian Peafowl, commonly known as the Peacock (Pavo cristatus). It was officially designated as the national bird in 1963."
+        },
+        {
+            "role": "user",
+            "content": "write a code for for prime number"
+        },
+        {
+            "role": "assistant",
+            "content": "Here's a clean and efficient Python implementation to check if a number is prime:\n\n```python\ndef is_prime(n):\n    \"\"\"\n    Check if a number is prime.\n    \n    Args:\n        n (int): Number to check\n        \n    Returns:\n        bool: True if prime, False otherwise\n    \"\"\"\n    if n < 2:\n        return False\n    \n    # Check for 2 separately to handle even numbers efficiently\n    if n == 2:\n        return True\n    \n    # Exclude even numbers > 2\n    if n % 2 == 0:\n        return False\n    \n    # Check odd divisors up to \u221an\n    i = 3\n    while i * i <= n:\n        if n % i == 0:\n            return False\n        i += 2\n    \n    return True\n\n# Example usage:\nnum = 29\nif is_prime(num):\n    print(f\"{num} is prime\")\nelse:\n    print(f\"{num} is not prime\")\n```\n\n**How it works:**\n- Numbers < 2 are not prime\n- 2 is the only even prime number\n- All other even numbers are composite\n- For odd numbers, only check odd divisors from 3 up to \u221an (since if n has a factor larger than \u221an, the corresponding factor would be smaller than \u221an)\n\n**Time Complexity:** O(\u221an)\n\n**Test it:**\n```python\n# Generate first 10 prime numbers\nprimes = []\nnum = 2\nwhile len(primes) < 10:\n    if is_prime(num):\n        primes.append(num)\n    num += 1\nprint(primes)  # [2, 3, 5, 7, 11, 13, 17, 19, 23, 29]\n```\n\nLet me know if you'd like a version using the Sieve of Eratosthenes for finding multiple primes efficiently!"
         }
     ]
 }

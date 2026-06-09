@@ -1,4 +1,4 @@
-from models.bedrock_client import (
+from infrastructure.bedrock_client import (
     BedrockClient
 )
 
