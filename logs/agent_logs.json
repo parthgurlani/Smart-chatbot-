@@ -182,5 +182,195 @@
         "model": "qwen.qwen3-coder-next",
         "needs_search": false,
         "response_time": 19.83
+    },
+    {
+        "timestamp": "2026-06-09T12:02:04Z",
+        "query": "what is the capital of india",
+        "agent": "general",
+        "model": "us.amazon.nova-lite-v1:0",
+        "needs_search": false,
+        "response_time": 0.0
+    },
+    {
+        "timestamp": "2026-06-09T12:03:09Z",
+        "query": "what is the capital of india",
+        "agent": "general",
+        "model": "us.amazon.nova-lite-v1:0",
+        "needs_search": false,
+        "response_time": 1.92
+    },
+    {
+        "timestamp": "2026-06-09T12:07:14Z",
+        "query": "what is capital of india",
+        "agent": "general",
+        "model": "us.amazon.nova-lite-v1:0",
+        "needs_search": false,
+        "response_time": 2.4
+    },
+    {
+        "timestamp": "2026-06-09T12:07:39Z",
+        "query": "what is my name",
+        "agent": "general",
+        "model": "us.amazon.nova-lite-v1:0",
+        "needs_search": false,
+        "response_time": 2.4
+    },
+    {
+        "timestamp": "2026-06-09T12:07:56Z",
+        "query": "what is bedrock\\",
+        "agent": "general",
+        "model": "us.amazon.nova-lite-v1:0",
+        "needs_search": false,
+        "response_time": 3.06
+    },
+    {
+        "timestamp": "2026-06-09T12:08:25Z",
+        "query": "in fever which medicine i should take",
+        "agent": "medical",
+        "model": "us.anthropic.claude-sonnet-4-6",
+        "needs_search": true,
+        "response_time": 10.63
+    },
+    {
+        "timestamp": "2026-06-09T12:09:47Z",
+        "query": "can u write a code for me of prime number and i am having cold tell which medicine i should take",
+        "agent": "general",
+        "model": "us.amazon.nova-lite-v1:0",
+        "needs_search": false,
+        "response_time": 4.49
+    },
+    {
+        "timestamp": "2026-06-09T12:10:45Z",
+        "query": "write a code for html of loading page",
+        "agent": "coding",
+        "model": "qwen.qwen3-coder-next",
+        "needs_search": false,
+        "response_time": 17.96
+    },
+    {
+        "timestamp": "2026-06-09T12:11:38Z",
+        "query": "where do i live",
+        "agent": "general",
+        "model": "us.amazon.nova-lite-v1:0",
+        "needs_search": false,
+        "response_time": 2.27
+    },
+    {
+        "timestamp": "2026-06-09T12:12:01Z",
+        "query": "i am right now in gandhinagr",
+        "agent": "general",
+        "model": "us.amazon.nova-lite-v1:0",
+        "needs_search": false,
+        "response_time": 2.3
+    },
+    {
+        "timestamp": "2026-06-09T12:14:15Z",
+        "query": "i am having dengue give me a guide to follow 7 days",
+        "agent": "medical",
+        "model": "us.anthropic.claude-sonnet-4-6",
+        "needs_search": true,
+        "response_time": 30.45
+    },
+    {
+        "timestamp": "2026-06-09T12:15:22Z",
+        "query": "give me a preparation guide to be preapred for placements",
+        "agent": "general",
+        "model": "us.amazon.nova-lite-v1:0",
+        "needs_search": true,
+        "response_time": 5.87
+    },
+    {
+        "timestamp": "2026-06-09T12:25:07Z",
+        "query": "what is the weather of bhat gandhinagar",
+        "agent": "general",
+        "model": "us.amazon.nova-lite-v1:0",
+        "needs_search": true,
+        "response_time": 3.59
+    },
+    {
+        "timestamp": "2026-06-09T12:25:40Z",
+        "query": "what is the today's weather of bhat gandhinagar",
+        "agent": "general",
+        "model": "us.amazon.nova-lite-v1:0",
+        "needs_search": true,
+        "response_time": 2.83
+    },
+    {
+        "timestamp": "2026-06-09T12:50:46Z",
+        "query": "hello",
+        "agent": "general",
+        "model": "us.amazon.nova-lite-v1:0",
+        "needs_search": false,
+        "response_time": 2.27
+    },
+    {
+        "timestamp": "2026-06-09T12:51:30Z",
+        "query": "when to give party to my old friend",
+        "agent": "general",
+        "model": "us.amazon.nova-lite-v1:0",
+        "needs_search": false,
+        "response_time": 5.87
+    },
+    {
+        "timestamp": "2026-06-09T12:52:36Z",
+        "query": "write a code for fibbonaci series",
+        "agent": "coding",
+        "model": "qwen.qwen3-coder-next",
+        "needs_search": false,
+        "response_time": 37.55
+    },
+    {
+        "timestamp": "2026-06-09T12:52:48Z",
+        "query": "what is my name ",
+        "agent": "general",
+        "model": "us.amazon.nova-lite-v1:0",
+        "needs_search": false,
+        "response_time": 2.34
+    },
+    {
+        "timestamp": "2026-06-09T13:25:48Z",
+        "query": "what is dengue",
+        "agent": "general",
+        "model": "us.amazon.nova-lite-v1:0",
+        "needs_search": false,
+        "response_time": 6.2
+    },
+    {
+        "timestamp": "2026-06-09T13:26:22Z",
+        "query": "what is feve",
+        "agent": "general",
+        "model": "us.amazon.nova-lite-v1:0",
+        "needs_search": true,
+        "response_time": 3.06
+    },
+    {
+        "timestamp": "2026-06-09T13:26:34Z",
+        "query": "what is fever",
+        "agent": "general",
+        "model": "us.amazon.nova-lite-v1:0",
+        "needs_search": false,
+        "response_time": 4.99
+    },
+    {
+        "timestamp": "2026-06-09T13:35:04Z",
+        "query": "what is cancer",
+        "agent": "medical",
+        "model": "us.anthropic.claude-sonnet-4-6",
+        "needs_search": true,
+        "input_tokens": 3582,
+        "output_tokens": 668,
+        "total_tokens": 4250,
+        "response_time": 12.76
+    },
+    {
+        "timestamp": "2026-06-09T13:37:34Z",
+        "query": "can u write a code for me of prime number",
+        "agent": "coding",
+        "model": "qwen.qwen3-coder-next",
+        "needs_search": false,
+        "input_tokens": 3490,
+        "output_tokens": 419,
+        "total_tokens": 3909,
+        "response_time": 10.56
     }
 ]

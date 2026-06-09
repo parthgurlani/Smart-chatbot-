@@ -9,9 +9,11 @@ from infrastructure.logger import AgentLogger
 
 from agents.router_agent import RouterAgent
 from agents.registry import AgentRegistry
-import agents.domain_agents  # Executes the decorators to register agents
+import agents.domain_agents  # Executes decorators
 
+# UI
 from ui.streamlit_ui import render_sidebar, render_chat
+
 
 # -------------------------
 # Constants & Config
@@ -19,7 +21,11 @@ from ui.streamlit_ui import render_sidebar, render_chat
 USER_ID = "default_user"
 SESSION_ID = "default"
 
-st.set_page_config(page_title="Multi-Agent Bedrock Platform", layout="wide", page_icon="🧠")
+st.set_page_config(
+    page_title="Multi-Agent Bedrock Platform",
+    layout="wide",
+    page_icon="🧠"
+)
 
 st.markdown(
     """
@@ -29,97 +35,248 @@ st.markdown(
     """,
     unsafe_allow_html=True,
 )
+
 st.markdown("---")
 
+
+# -------------------------
+# Session State
+# -------------------------
 if "messages" not in st.session_state:
     st.session_state.messages = []
+
 if "last_route" not in st.session_state:
     st.session_state.last_route = None
+
 if "last_metrics" not in st.session_state:
     st.session_state.last_metrics = None
+
 
 # -------------------------
 # Sidebar
 # -------------------------
 render_sidebar(SESSION_ID)
 
+
 # -------------------------
-# Display Chat History
+# Render Existing Messages
 # -------------------------
 for message in st.session_state.messages:
     with st.chat_message(message["role"]):
         st.markdown(message["content"])
 
+
 # -------------------------
-# Main Execution Loop
+# Chat Input
 # -------------------------
 user_message = render_chat()
 
 if user_message:
-    # 1. Save User Input
-    st.session_state.messages.append({"role": "user", "content": user_message})
-    add_message(SESSION_ID, "user", user_message)
-    update_profile_from_message(USER_ID, user_message)
-    
+
+    # -------------------------
+    # Save User Message
+    # -------------------------
+    st.session_state.messages.append(
+        {
+            "role": "user",
+            "content": user_message
+        }
+    )
+
+    add_message(
+        SESSION_ID,
+        "user",
+        user_message
+    )
+
+    update_profile_from_message(
+        USER_ID,
+        user_message
+    )
+
     with st.chat_message("user"):
         st.markdown(user_message)
 
+    # -------------------------
+    # Intent Classification
+    # -------------------------
     with st.spinner("Classifying intent..."):
-        # 2. Intelligent Routing Phase
-        router = RouterAgent()
-        route_data = router.classify_intent(user_message)
-        st.session_state.last_route = route_data
-        
-        domain = route_data.get("domain", "general")
-        needs_search = route_data.get("needs_search", False)
 
-        # 3. Agent Instantiation
-        agent_class = AgentRegistry.get_agent(domain)
+        router = RouterAgent()
+
+        route_data = router.classify_intent(
+            user_message
+        )
+
+        st.session_state.last_route = route_data
+
+        domain = route_data.get(
+            "domain",
+            "general"
+        )
+
+        needs_search = route_data.get(
+            "needs_search",
+            False
+        )
+
+        agent_class = AgentRegistry.get_agent(
+            domain
+        )
+
         active_agent = agent_class()
 
-    with st.spinner(f"Agent '{domain.upper()}' is thinking..."):
-        # 4. Tool Execution Phase
+    # -------------------------
+    # Agent Execution
+    # -------------------------
+    with st.spinner(
+        f"Agent '{domain.upper()}' is thinking..."
+    ):
+
         search_results_text = ""
+
+        # -------------------------
+        # Search Tool
+        # -------------------------
         if needs_search:
+
             with st.spinner("Searching the web..."):
-                raw_results, error = search_web(user_message)
+
+                raw_results, error = search_web(
+                    user_message
+                )
+
                 if error:
-                    st.error(f"Failed to fetch live data: {error}")
-                elif not raw_results:
-                    st.warning("No search results found.")
-                else:
-                    search_results_text = "\n\n".join(
-                        [f"Title: {r.get('title')}\nContent: {r.get('body')}" for r in raw_results]
+
+                    st.error(
+                        f"Failed to fetch live data: {error}"
                     )
 
-        # 5. Context Hydration
-        context = ContextManager.hydrate_context(USER_ID, SESSION_ID)
+                elif not raw_results:
 
-        # 6. Generation Phase
+                    st.warning(
+                        "No search results found."
+                    )
+
+                else:
+
+                    search_results_text = "\n\n".join(
+                        [
+                            f"Title: {r.get('title')}\n"
+                            f"Content: {r.get('body')}"
+                            for r in raw_results
+                        ]
+                    )
+
+        # -------------------------
+        # Context Hydration
+        # -------------------------
+        context = ContextManager.hydrate_context(
+            USER_ID,
+            SESSION_ID
+        )
+
+        # -------------------------
+        # LLM Generation
+        # -------------------------
         start_time = time.time()
-        response = active_agent.execute(user_message, context, search_results_text)
+
+        result = active_agent.execute(
+            user_message,
+            context,
+            search_results_text
+        )
+
         latency = time.time() - start_time
-        
-        # Update metrics for UI
+
+        # -------------------------
+        # Extract Response
+        # -------------------------
+        response = result.get(
+            "answer",
+            "No response generated."
+        )
+
+        input_tokens = result.get(
+            "input_tokens",
+            0
+        )
+
+        output_tokens = result.get(
+            "output_tokens",
+            0
+        )
+
+        total_tokens = result.get(
+            "total_tokens",
+            0
+        )
+
+        # -------------------------
+        # Store Metrics
+        # -------------------------
         st.session_state.last_metrics = {
-            "latency": latency,
-            "model": active_agent.model_id
+            "latency": round(latency, 2),
+            "model": active_agent.model_id,
+            "input_tokens": input_tokens,
+            "output_tokens": output_tokens,
+            "total_tokens": total_tokens
         }
 
-        # 7. Telemetry & Storage
+        # -------------------------
+        # Logging
+        # -------------------------
         AgentLogger.log_execution(
             query=user_message,
             agent=domain,
             model=active_agent.model_id,
             needs_search=needs_search,
+
+            input_tokens=input_tokens,
+            output_tokens=output_tokens,
+            total_tokens=total_tokens,
+
             response_time=latency
         )
 
-    # 8. Render Response
-    st.session_state.messages.append({"role": "assistant", "content": response})
-    add_message(SESSION_ID, "assistant", response)
+    # -------------------------
+    # Save Assistant Message
+    # -------------------------
+    st.session_state.messages.append(
+        {
+            "role": "assistant",
+            "content": response
+        }
+    )
 
+    add_message(
+        SESSION_ID,
+        "assistant",
+        response
+    )
+
+    # -------------------------
+    # Render Assistant Message
+    # -------------------------
     with st.chat_message("assistant"):
         st.markdown(response)
-        
-    st.rerun() # Refresh UI to update sidebar metrics
+
+        with st.expander("📊 Token Usage"):
+
+            st.write(
+                f"Input Tokens: {input_tokens}"
+            )
+
+            st.write(
+                f"Output Tokens: {output_tokens}"
+            )
+
+            st.write(
+                f"Total Tokens: {total_tokens}"
+            )
+
+            st.write(
+                f"Latency: {round(latency, 2)} sec"
+            )
+
+    st.rerun()
